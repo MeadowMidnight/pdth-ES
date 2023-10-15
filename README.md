@@ -12,7 +12,7 @@ From the mod settings, you can select up to 3 crew bonuses that the bots can giv
 - Protector (50% more armor, it is originally only 10% in the vanilla game)
 - Sharpshooter (25% less spread, originally 10% in vanilla)
 - Big Game Hunters (15% more ammo)
-- Speed Reloaders (20% faster reload speed, originally %10 in vanilla)
+- Speed Reloaders (20% faster reload speed, originally 10% in vanilla)
 - Noob Lube (20% more experience)
 - Mr Nice Guy (20% more experience)
 
