@@ -1,2 +1,2 @@
-# pdth-ES
+# PD:TH Enhanced Singleplayer
 test repository
