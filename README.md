@@ -30,7 +30,7 @@ Challenges have went through several changes:
 - Overdrill is now possible to trigger in Singleplayer.
 - Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
 - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
-- They don't give Steam achievements.
+- Challenges don't give Steam achievements in this mod.
 - No Photos is now earned by simply destroying a single camera, but it gives less XP.
 
 
