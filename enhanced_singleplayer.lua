@@ -1,3 +1,4 @@
+-- This code is a mess, but personally I don't really care anymore. Hopefully I can finally stop working on this mod.
 local module = ...
 local crew_bonus = D:conf("crew_bonus_1") or false
 local crew_bonus2 = D:conf("crew_bonus_2") or false
@@ -1045,7 +1046,7 @@ if RequiredScript == "lib/tweak_data/challengestweakdata" then -- Reduce taser c
             description_id = "ch_kill_cameras",
             flag_id = "kill_cameras",
             unlock_level = 0,
-            xp = large_xp,
+            xp = tiny_xp,
             awards_achievment = "kill_cameras"
         }
         self.achievment.hot_lava = {
