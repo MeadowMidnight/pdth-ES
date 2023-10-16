@@ -32,13 +32,11 @@ Challenges have went through several changes:
 - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
 - Challenges don't give Steam achievements in this mod.
 - No Photos is now earned by simply destroying a single camera, but it gives less XP.
+
 Progression Changes:
-- 
-
-
-
-
-
-
-
-
+- Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
+- Slaugherhouse gives +1000 XP per gold secured, it increases up to +2500 on Overkill 145+
+- Counterfeit money found in the basement only gives +800, up to +2000 on Overkill 145+
+- The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
+- The blue sapphires found in Diamond Heist give +400 XP, up to +1000 on Overkill 145+
+- Same thing applies to the diamonds in the vault in the same heist mentioned, and to the money randomly found in First World Bank, Panic Room and Slaughterhouse.
