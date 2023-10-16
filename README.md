@@ -35,6 +35,7 @@ Challenges have went through several changes:
 
 Progression Changes:
 - Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
+- End of heist rewards were tweaked.
 - Slaugherhouse gives +1000 XP per gold secured, it increases up to +2500 on Overkill 145+
 - Counterfeit money found in the basement only gives +800, up to +2000 on Overkill 145+
 - The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
