@@ -30,10 +30,12 @@ Challenges have went through several changes:
 - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
 - Challenges don't give Steam achievements in this mod.
 - No Photos is now earned by simply destroying a single camera, but it gives less XP.
+- Last Christmas is now possible in Singleplayer. (The presents only spawned in Multiplayer previously.)
 
 Progression Changes:
 - Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
 - End of heist rewards were tweaked.
+- You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
 - You now earn 200 XP per camera destroyed in a heist.
 - Slaugherhouse gives +1000 XP per gold secured, it increases up to +2500 on Overkill 145+
 - Counterfeit money found in the basement only gives +800, up to +2000 on Overkill 145+
@@ -41,4 +43,4 @@ Progression Changes:
 - The blue sapphires found in Diamond Heist give +400 XP, up to +1000 on Overkill 145+
 - Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
 - The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
-- 
+- Finding a christmas present during a heist will give +5000 XP.
