@@ -39,4 +39,6 @@ Progression Changes:
 - Counterfeit money found in the basement only gives +800, up to +2000 on Overkill 145+
 - The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
 - The blue sapphires found in Diamond Heist give +400 XP, up to +1000 on Overkill 145+
-- Same thing applies to the diamonds in the vault in the same heist mentioned, and to the money randomly found in First World Bank, Panic Room and Slaughterhouse.
+- Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
+- The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
+- 
