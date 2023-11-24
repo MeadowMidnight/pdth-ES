@@ -24,6 +24,7 @@ You can revert the buffed statistics back to their vanilla ones in mod settings.
 
 Challenges have went through several changes:
 - Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
+- Sentry Gun VS The World is now possible due to the player now being able to hold 4 sentry guns at once.
 - Repetitive challenges like weapon kills had their requirements lowered due to them being boring to complete.
 - Overdrill is now possible to trigger in Singleplayer.
 - Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
@@ -44,3 +45,12 @@ Progression Changes:
 - Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
 - The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
 - Finding a christmas present during a heist will give +5000 XP.
+
+Gameplay Changes:
+- Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
+- You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (previously 5 in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
+- You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
+- You have 8 cable ties due to missing players in singleplayer.
+- You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
+- You get +2 trip mines.
+- Bot HP is now shown on the in-game HUD.
