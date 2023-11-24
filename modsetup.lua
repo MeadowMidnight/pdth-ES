@@ -34,7 +34,13 @@ module:add_menu_option("vanilla_bonuses", {
 	help_id = "VB_desc",
 	default_value = false
 })
-module:add_menu_option("bot_health", {
+module:add_menu_option("bot_arrest", {
+	type = "boolean",
+	text_id = "BA_name",
+	help_id = "BA_desc",
+	default_value = false
+})
+module:add_menu_option("bot_health", {	
 	type = "slider",
 	min = 30, max = 300, step = 10,
 	show_value = true,

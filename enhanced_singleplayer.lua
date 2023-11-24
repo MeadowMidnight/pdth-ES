@@ -8,6 +8,7 @@ local vanilla_bonuses = D:conf("vanilla_bonuses") or false
 local bot_health = D:conf("bot_health") or false
 local bot_speed = D:conf("bot_speed") or false
 local bot_regen = D:conf("bot_speed") or false
+local bot_arrest = D:conf("bot_arrest") or false
 local protector_multi = 1.5
 local reload_multi = 1.2
 local sharp_multi = 0.75
@@ -224,7 +225,7 @@ if RequiredScript == "lib/units/player_team/teamaidamage" and Check_Singleplayer
 		return damage_percent, health_subtracted
 	end, true)
 end
-if RequiredScript == "lib/units/player_team/teamaimovement" and Check_Singleplayer() then -- Bots will no longer get arrested by cloakers.
+if RequiredScript == "lib/units/player_team/teamaimovement" and Check_Singleplayer() and bot_arrest then -- Bots will no longer get arrested by cloakers.
     function TeamAIMovement:on_SPOOCed()
         return
     end

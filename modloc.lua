@@ -57,6 +57,12 @@ module:add_localization_string("BH_name", {
 module:add_localization_string("BH_desc", {
 	english = "Adjust the amount of health the bots have. This is for people who still complain that the bots are worthless or those who want to tone down their capabilities.",
 })
+module:add_localization_string("BA_name", {
+	english = "Cloaker Arrest Resistance",
+})
+module:add_localization_string("BA_desc", {
+	english = "When enabled, the bots no longer get arrested by cloakers. This will NOT give you resistance to being kicked by a cloaker, only the bots have this.",
+})
 module:add_localization_string("BS_name", {
 	english = "Bot Speed",
 })
