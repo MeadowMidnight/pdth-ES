@@ -1,0 +1,1 @@
+SavefileManager.PROGRESS_SLOT = 23
