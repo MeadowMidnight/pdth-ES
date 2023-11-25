@@ -3,6 +3,11 @@ A mod for Payday: The Heist that adds player-side and team AI enhancements in si
 
 IMPORTANT NOTE: While this mod is active you won't be able to play multiplayer at all, along with achievements and steam statistics being completely disabled. This mod will also create a new save file so you can't just farm XP from challenges or heist completions on your main save, leaving it untouched from modded gameplay.
 
+# Installation
+This mod requires the DAHM modification which can be found here: https://steamcommunity.com/groups/dahm4pd/discussions/3/3810655600549061009/
+
+Simply extract the file and place it in the "mods" folder in the game directory.
+
 # Features:
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
