@@ -48,7 +48,7 @@ Progression Changes:
 
 Gameplay Changes:
 - Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
-- You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (previously 5 in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
+- You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
 - You have 8 cable ties due to missing players in singleplayer.
 - You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
