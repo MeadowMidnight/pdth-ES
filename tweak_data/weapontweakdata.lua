@@ -10,11 +10,12 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 		return
 	end
 	-- GL40 --
-	-- Less ammo, more damage, explosion range and better ammo pickup.
+	-- More damage, explosion range and ammo pickup at the cost of it now taking up your primary slot.
 	self.m79.DAMAGE = 80
 	self.m79.EXPLOSION_RANGE = 750
-	self.m79.NR_CLIPS_MAX = 2
+	self.m79.NR_CLIPS_MAX = 3
 	self.m79.AMMO_PICKUP = {-3, 1}
+	self.m79.use_data.selection_index = 2
 
 	-- Locomotive --
 	-- Direct buff, because it sucks in vanilla.
@@ -73,4 +74,6 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mp5.DAMAGE = 1.6 --from 1.15
 	self.mp5.AMMO_MAX = 120
 	self.mp5.AMMO_PICKUP = {4, 6}
+
+	self.hk21.auto.fire_rate = 0.1
 end, false)
