@@ -6,7 +6,6 @@ local _check_action_primary_attack = PlayerStandard._check_action_primary_attack
 local _StockholmSyndrome = {
 	_delay = 0
 }
-
 function PlayerStandard:_check_action_primary_attack(t, input)
 	local _res = _check_action_primary_attack(self, t, input)
 	if self._shooting and t > _StockholmSyndrome._delay and not managers.groupai:state():whisper_mode() then

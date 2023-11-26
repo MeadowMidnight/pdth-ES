@@ -5,7 +5,6 @@ local crew_bonus = D:conf("crew_bonus_1") or false
 local crew_bonus2 = D:conf("crew_bonus_2") or false
 local crew_bonus3 = D:conf("crew_bonus_3") or false
 local vanilla_bonuses = D:conf("vanilla_bonuses") or false
-local protector_multi = 1.5
 local reload_multi = 1.2
 local sharp_multi = 0.75
 local is_singleplayer = Global.game_settings and Global.game_settings.single_player
@@ -13,7 +12,6 @@ if not is_singleplayer then
 	return
 end
 if vanilla_bonuses then
-    local protector_multi = 1.1
     local reload_multi = 1.1
     local sharp_multi = 0.9
 end
