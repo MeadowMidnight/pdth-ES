@@ -73,11 +73,6 @@ module:add_menu_option("max_key", {
 	}
 })
 local function max_out()
-	--[[if managers.dlc:has_dlc1() then
-		Global.experience_manager.level = 193
-	else
-		Global.experience_manager.level = 145
-	end ]]
 	managers.experience:add_points(50000000, true)
 end
 module:hook("OnKeyPressed", "max_key", nil, "GAME", function()
