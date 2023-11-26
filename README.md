@@ -3,6 +3,11 @@ A mod for Payday: The Heist that adds player-side and team AI enhancements in si
 
 IMPORTANT NOTE: While this mod is active you won't be able to play multiplayer at all, along with achievements and steam statistics being completely disabled. This mod will also create a new save file so you can't just farm XP from challenges or heist completions on your main save, leaving it untouched from modded gameplay.
 
+# Installation:
+This mod requires the DAHM modification which can be found here: https://steamcommunity.com/groups/dahm4pd/discussions/3/3810655600549061009/
+
+Simply extract the file and place it in the "mods" folder in the game directory.
+
 # Features:
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
@@ -22,18 +27,19 @@ You can change the crew bonuses to "Not Active" if you don't want them.
 
 You can revert the buffed statistics back to their vanilla ones in mod settings.
 
+# Progression Changes:
 Challenges have went through several changes:
-- Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
-- Sentry Gun VS The World is now possible due to the player now being able to hold 4 sentry guns at once.
-- Repetitive challenges like weapon kills had their requirements lowered due to them being boring to complete.
-- Overdrill is now possible to trigger in Singleplayer.
-- Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
-- Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
-- Challenges don't give Steam achievements in this mod.
-- No Photos is now earned by simply destroying a single camera, but it gives less XP.
-- Last Christmas is now possible in Singleplayer. (The presents only spawned in Multiplayer previously.)
+  - Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
+  - Sentry Gun VS The World is now possible due to the player now being able to hold 4 sentry guns at once.
+  - Repetitive challenges like weapon kills had their requirements lowered due to them being boring to complete.
+  - Overdrill is now possible to trigger in Singleplayer.
+  - Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
+  - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
+  - Challenges don't give Steam achievements in this mod.
+  - No Photos is now earned by simply destroying a single camera, but it gives less XP.
+  - Last Christmas is now possible in Singleplayer. (The presents only spawned in Multiplayer previously.)
 
-Progression Changes:
+Cash Changes:
 - Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
 - End of heist rewards were tweaked.
 - You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
@@ -46,7 +52,7 @@ Progression Changes:
 - The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
 - Finding a christmas present during a heist will give +5000 XP.
 
-Gameplay Changes:
+# Gameplay Changes:
 - Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
