@@ -1,6 +1,7 @@
 local module = ...
 
 module:hook_post_require("lib/network/matchmaking/networkaccountsteam", "misc/network")
+module:hook_post_require("core/lib/units/coreunitdamage", "units/coreunitdamage")
 module:hook_post_require("lib/managers/menumanager", "managers/menumanager")
 module:hook_post_require("lib/units/weapons/raycastweaponbase", "units/weapons/raycastweaponbase")
 module:hook_post_require("lib/units/weapons/grenades/m79grenadebase", "units/weapons/m79grenadebase")
@@ -25,6 +26,7 @@ module:hook_post_require("lib/units/props/christmaspresentbase", "units/props/ch
 module:hook_post_require("lib/network/matchmaking/networkmatchmakingsteam", "misc/network2")
 module:hook_post_require("lib/units/beings/player/playerdamage", "units/player/playerdamage")
 module:hook_post_require("lib/states/missionendstate", "misc/missionendstate")
+module:hook_post_require("lib/states/ingamewaitingforplayers", "misc/ingamewaitingforplayers")
 module:hook_post_require("lib/units/beings/player/states/playerstandard", "units/player/playerstandard")
 module:hook_post_require("lib/units/beings/player/states/playertased", "units/player/playertased")
 module:hook_post_require("lib/units/props/securitycamera", "units/props/securitycamera")
