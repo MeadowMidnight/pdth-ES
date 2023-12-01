@@ -45,14 +45,14 @@ Cash Changes:
 - Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
 - End of heist rewards were tweaked.
 - You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
-- You now earn 200 XP per camera destroyed in a heist.
-- Slaugherhouse gives +1000 XP per gold secured, it increases up to +2500 on Overkill 145+
-- Counterfeit money found in the basement only gives +800 on Normal, up to +2000 on Overkill 145+
+- You now earn $200K per camera destroyed in a heist.
+- Slaugherhouse gives $1000k per gold secured, it increases up to +2500 on Overkill 145+
+- Counterfeit money found in the basement only gives $800k on Normal, up to $2000k on Overkill 145+
 - The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
-- The blue sapphires found in Diamond Heist give +400 XP, up to +1000 on Overkill 145+
+- The blue sapphires found in Diamond Heist give $400K , up to $1000k on Overkill 145+
 - Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
 - The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
-- Finding a christmas present during a heist will give +5000 XP.
+- Finding a christmas present during a heist will give $5000K.
 
 # Gameplay Changes:
 - Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
