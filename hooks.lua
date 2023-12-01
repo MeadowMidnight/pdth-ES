@@ -1,7 +1,6 @@
 local module = ...
 
 module:hook_post_require("lib/network/matchmaking/networkaccountsteam", "misc/network")
-module:hook_post_require("core/lib/units/coreunitdamage", "units/coreunitdamage")
 module:hook_post_require("lib/managers/menumanager", "managers/menumanager")
 module:hook_post_require("lib/units/weapons/raycastweaponbase", "units/weapons/raycastweaponbase")
 module:hook_post_require("lib/units/weapons/grenades/m79grenadebase", "units/weapons/m79grenadebase")
