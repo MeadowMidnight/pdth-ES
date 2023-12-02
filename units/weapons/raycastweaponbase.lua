@@ -7,6 +7,7 @@ local crew_bonus3 = D:conf("crew_bonus_3") or false
 local vanilla_bonuses = D:conf("vanilla_bonuses") or false
 local reload_multi = 1.2
 local sharp_multi = 0.75
+local RaycastWeaponBase = module:hook_class("RaycastWeaponBase")
 local is_singleplayer = Global.game_settings and Global.game_settings.single_player
 if not is_singleplayer then
 	return
@@ -72,3 +73,17 @@ function RaycastWeaponBase:replenish()
 	self._ammo_pickup = tweak_data.weapon[self._name_id].AMMO_PICKUP
 	self:update_damage()
 end
+module:hook(RaycastWeaponBase, "_fire_sound", function(self)
+    self:play_tweak_data_sound("fire")
+    self:play_tweak_data_sound("stop_fire")
+end)
+module:hook(RaycastWeaponBase, "stop_shooting", function(self)
+	self._shooting = nil
+end)
+module:hook(RaycastWeaponBase, "start_shooting", function(self,...)
+	self._next_fire_allowed = math.max(self._next_fire_allowed, Application:time())
+	self._shooting = true
+end)
+module:pre_hook(RaycastWeaponBase, "fire", function(self)
+    self:_fire_sound()
+end)

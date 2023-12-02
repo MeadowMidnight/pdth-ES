@@ -62,10 +62,9 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.glock.spread.moving_standing = 3.5 --from 4
 	self.glock.spread.moving_crouching = 3.5 --from 4
 	
-	self.hk21.auto.fire_rate = 0.1
 
-	self.m4.kick.v.steelsight = 0.45 --0.45
-
+	self.m4.kick.v.steelsight = 0.1 --0.45
+	self.m4.kick.h.steelsight = 0.1 --0.45
 	--M308 Ammo & Pickup
 	self.m14.AMMO_MAX = 60
 	self.m14.AMMO_PICKUP = {1, 4}
@@ -75,5 +74,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mp5.AMMO_MAX = 120
 	self.mp5.AMMO_PICKUP = {4, 6}
 
-	self.hk21.auto.fire_rate = 0.1
+	self.ak47.auto.fire_rate = 0.09
+	
+	self.hk21.auto.fire_rate = 0.075
 end, false)
