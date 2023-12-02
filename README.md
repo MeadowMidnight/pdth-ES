@@ -48,15 +48,16 @@ Cash Changes:
 - End of heist rewards were tweaked.
 - You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
 - You now earn $200k per camera destroyed in a heist.
-- Slaugherhouse gives $1000k per gold secured, it increases up to +2500 on Overkill 145+
-- Counterfeit money found in the basement only gives $800k on Normal, up to $2000k on Overkill 145+
+- Slaugherhouse gives $500k per gold secured, it increases up to $2500k on Overkill 145+
+- Counterfeit money found in the basement only gives $400k on Easy, up to $2000k on Overkill 145+
 - The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
-- The blue sapphires found in Diamond Heist give $400k, up to $1000k on Overkill 145+
+- The blue sapphires found in Diamond Heist give $200k, up to $1000k on Overkill 145+
 - Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
 - The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
 - Finding a christmas present during a heist will give $5000k.
 
 # Gameplay Changes:
+- You can now play all heists on Easy difficulty.
 - Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
