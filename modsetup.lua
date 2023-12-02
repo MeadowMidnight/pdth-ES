@@ -26,13 +26,13 @@ module:add_menu_option("vanilla_weapons", {
 	type = "boolean",
 	text_id = "VW_name",
 	help_id = "VW_desc",
-	default_value = false
+	default_value = true
 })
 module:add_menu_option("vanilla_bonuses", {
 	type = "boolean",
 	text_id = "VB_name",
 	help_id = "VB_desc",
-	default_value = false
+	default_value = true
 })
 module:add_menu_option("bot_arrest", {
 	type = "boolean",
@@ -73,7 +73,7 @@ module:add_menu_option("max_key", {
 	}
 })
 local function max_out()
-	managers.experience:add_points(50000000, true)
+	managers.experience:add_points(500000, true)
 end
 module:hook("OnKeyPressed", "max_key", nil, "GAME", function()
 	max_out()
