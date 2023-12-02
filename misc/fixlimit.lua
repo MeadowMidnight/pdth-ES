@@ -7,6 +7,7 @@ local GroupHook = module:hook_class("GroupAIStateBesiege")
 if not multi_spawns then
 	return
 end ]]
+local GroupHook = module:hook_class("GroupAIStateBesiege")
 module:post_hook(GroupHook, "_init_misc_data", function(self)
 	self._police_force_max = 100
 end, false)

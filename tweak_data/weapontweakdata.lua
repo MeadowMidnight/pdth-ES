@@ -13,8 +13,8 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	-- More damage, explosion range and ammo pickup at the cost of it now taking up your primary slot.
 	self.m79.DAMAGE = 80
 	self.m79.EXPLOSION_RANGE = 750
-	self.m79.NR_CLIPS_MAX = 3
-	self.m79.AMMO_PICKUP = {-3, 1}
+	self.m79.NR_CLIPS_MAX = 4
+	self.m79.AMMO_PICKUP = {-2, 1}
 	self.m79.use_data.selection_index = 2
 
 	-- Locomotive --
@@ -36,6 +36,8 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.beretta92.spread.steelsight = 0.8 --from 1.4 (Base +60 ACC)
 	self.beretta92.spread.moving_standing = 2 --from 3.5
 	self.beretta92.spread.moving_crouching = 2 --from 3.5
+	--self.beretta92.auto = {}
+	--self.beretta92.auto.fire_rate = 0.05
 
 	--Crosskill Mag, Ammo, Pickup & Damage
 	self.c45.CLIP_AMMO_MAX = 8
