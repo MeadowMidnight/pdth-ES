@@ -10,6 +10,8 @@ This mod requires the DAHM modification which can be found here: https://steamco
 
 Simply extract the file and place it in the "mods" folder in the game directory.
 
+When uninstalling this mod, DO NOT disable it in the mod settings in-game, just delete or move the pdth-ES folder from the mods folder to prevent save corruption.
+
 # Features:
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
