@@ -24,7 +24,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	--Mark 11 Ammo, Pickup, RoF & Damage
 	self.mac11.AMMO_MAX = 90
-	self.mac11.AMMO_PICKUP = {2, 6}
+	self.mac11.AMMO_PICKUP = {4, 4}
 	self.mac11.DAMAGE = 2.4-- from 1.3
 	self.mac11.auto.fire_rate = 0.05-- from 0.066 (909) to 0.5 (1200)
 
@@ -36,13 +36,11 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.beretta92.spread.steelsight = 0.8 --from 1.4 (Base +60 ACC)
 	self.beretta92.spread.moving_standing = 2 --from 3.5
 	self.beretta92.spread.moving_crouching = 2 --from 3.5
-	--self.beretta92.auto = {}
-	--self.beretta92.auto.fire_rate = 0.05
 
 	--Crosskill Mag, Ammo, Pickup & Damage
 	self.c45.CLIP_AMMO_MAX = 8
 	self.c45.AMMO_MAX = 36
-	self.c45.AMMO_PICKUP = {1, 1}
+	self.c45.AMMO_PICKUP = {2, 2}
 	self.c45.DAMAGE = 3.5 --from 1.5
 
 	--Crosskill Accuracy
@@ -54,7 +52,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	--STRKY Ammo, Pickup & Damage
 	self.glock.AMMO_MAX = 80 --from 56
-	self.glock.AMMO_PICKUP = {1, 4}
+	self.glock.AMMO_PICKUP = {3, 3}
 	self.glock.DAMAGE = 1.75 --from 1
 
 	--STRKY Accuracy
@@ -67,14 +65,24 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	self.m4.kick.v.steelsight = 0.1 --0.45
 	self.m4.kick.h.steelsight = 0.1 --0.45
+
 	--M308 Ammo & Pickup
 	self.m14.AMMO_MAX = 60
-	self.m14.AMMO_PICKUP = {1, 4}
+	self.m14.AMMO_PICKUP = {3, 3}
+
 
 	--Compact 5 Ammo, Pickup & Damage
 	self.mp5.DAMAGE = 1.6 --from 1.15
 	self.mp5.AMMO_MAX = 120
-	self.mp5.AMMO_PICKUP = {4, 6}
+	self.mp5.AMMO_PICKUP = {5, 5}
+
+	-- ~40% less spread --
+	self.mp5.spread.standing = 2.1 
+	self.mp5.spread.crouching = 1.5
+	self.mp5.spread.steelsight = 1.02
+	self.mp5.spread.moving_standing = 2.7
+	self.mp5.spread.moving_crouching = 2.28
+
 
 	self.ak47.auto.fire_rate = 0.09
 	

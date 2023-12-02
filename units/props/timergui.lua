@@ -5,7 +5,7 @@ end
 function TimerGui:_start(timer, current_timer)
 	self._started = true
 	self._done = false
-	self._timer = timer * managers.player:toolset_value() or 5
+	self._timer = timer * managers.player:toolset_value() or 5 
 	self._current_timer = current_timer or self._timer
 	self._gui_script.timer:set_w(self._timer_lenght * (1 - self._current_timer / self._timer))
 	self._gui_script.working_text:set_text(managers.localization:text(self._gui_working))

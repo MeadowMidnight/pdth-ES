@@ -46,7 +46,6 @@ function RaycastWeaponBase:damage_multiplier()
 		return multiplier
 	end
 end
-
 function RaycastWeaponBase:spread_multiplier()
 	local multiplier = managers.player:upgrade_value(self._name_id, "spread_multiplier", 1)
 	multiplier = multiplier * managers.player:synced_crew_bonus_upgrade_value("sharpshooters", 1)
@@ -56,9 +55,7 @@ function RaycastWeaponBase:spread_multiplier()
 	else
 		 return multiplier
 	end
-	return multiplier
 end
-
 function RaycastWeaponBase:replenish()
 	local ammo_max_multiplier = managers.player:equipped_upgrade_value("extra_start_out_ammo", "player", "extra_ammo_multiplier")
 	if crew_bonus == "big_game_hunters" or crew_bonus2 == "big_game_hunters" or crew_bonus3 == "big_game_hunters" then
