@@ -42,7 +42,7 @@ module:add_menu_option("bot_arrest", {
 })
 module:add_menu_option("bot_health", {	
 	type = "slider",
-	min = 30, max = 300, step = 10,
+	min = 30, max = 150, step = 10,
 	show_value = true,
 	text_id = "BH_name",
 	help_id = "BH_desc",
@@ -50,7 +50,7 @@ module:add_menu_option("bot_health", {
 })
 module:add_menu_option("bot_speed", {
 	type = "slider",
-	min = 100, max = 1200, step = 20,
+	min = 200, max = 1000, step = 20,
 	show_value = true,
 	text_id = "BS_name",
 	help_id = "BS_desc",
@@ -58,7 +58,7 @@ module:add_menu_option("bot_speed", {
 })
 module:add_menu_option("bot_regen", {
 	type = "slider",
-	min = 1, max = 10, step = 0.1,
+	min = 2, max = 10, step = 0.1,
 	show_value = true,
 	text_id = "BR_name",
 	help_id = "BR_desc",

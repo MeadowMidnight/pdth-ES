@@ -16,10 +16,10 @@ When uninstalling this mod, DO NOT disable it in the mod settings in-game, just 
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
 - Aggressor (10% damage bonus)
-- Protector (50% more armor, it is originally only 10% in the vanilla game)
-- Sharpshooter (25% less spread, originally 10% in vanilla)
+- Protector (10% more armor)
+- Sharpshooter (10% less spread)
 - Big Game Hunters (15% more ammo)
-- Speed Reloaders (20% faster reload speed, originally 10% in vanilla)
+- Speed Reloaders (10% faster reload speed)
 - Noob Lube (20% more experience)
 - Mr Nice Guy (20% more experience)
 
@@ -28,8 +28,6 @@ When both Mr Nice Guy and Noob Lube are used, they give 44% more experience.
 These bonuses will always be active, even if the bots are downed, in custody or playing without them.
 
 You can change the crew bonuses to "Not Active" if you don't want them.
-
-You can revert the buffed statistics back to their vanilla ones in mod settings.
 
 # Progression Changes:
 Challenges have went through several changes:
@@ -58,7 +56,6 @@ Cash Changes:
 
 # Gameplay Changes:
 - You can now play all heists on Easy difficulty.
-- Weapon balance has been altered (kinda like those weapon rebalances you might have seen before) and can be reverted back to vanilla through a simple toggle in settings.
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
 - You have 8 cable ties due to missing players in singleplayer.
