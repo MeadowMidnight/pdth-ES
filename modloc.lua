@@ -78,3 +78,9 @@ module:add_localization_string("BR_desc", {
 module:add_localization_string("ch_kill_cameras", {
 	english = "Destroy a camera.",
 })
+module:add_localization_string("MS_name", {
+	english = "Multiplayer Spawns",
+})
+module:add_localization_string("MS_desc", {
+	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. This will also fix the 25 police limit oversight, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force. ",
+})
