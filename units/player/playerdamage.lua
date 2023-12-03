@@ -31,3 +31,64 @@ function PlayerDamage:_regenerated()
 	self:_set_health_effect()
 	self._said_hurt = false
 end
+
+function PlayerDamage:play_whizby(position)
+	self._unit:sound():play_whizby({position = position})
+	managers.rumble:play("bullet_whizby")
+end
+ 
+ 
+function PlayerDamage:damage_bullet(attack_data)
+	local damage_info = {
+		result = {type = "hurt", variant = "bullet"},
+		attacker_unit = attack_data.attacker_unit
+	}
+	if self._god_mode then
+		if attack_data.damage > 0 then
+			self:_send_damage_drama(attack_data, attack_data.damage)
+		end
+ 
+		self:_call_listeners(damage_info)
+		return
+	elseif self._invulnerable then
+		self:_call_listeners(damage_info)
+		return
+	elseif self:incapacitated() then
+		return
+	elseif PlayerDamage:_look_for_friendly_fire(attack_data.attacker_unit) then
+		return
+	elseif self:_chk_dmg_too_soon(attack_data.damage) then
+		return
+	elseif self._revive_miss and math.random() < self._revive_miss then
+		self:play_whizby(attack_data.col_ray.position)
+		return
+	end
+ 
+	if attack_data.attacker_unit:base()._tweak_table == "tank" then
+		managers.achievment:set_script_data("dodge_this_fail", true)
+	end
+ 
+	self._unit:sound():play("player_hit")
+	
+	self._unit:camera():play_shaker("player_bullet_damage", 0.5)	
+	
+	managers.rumble:play("damage_bullet")
+	self:_hit_direction(attack_data.col_ray)
+	if self._bleed_out then
+		self:_bleed_out_damage(attack_data)
+		return
+	end
+ 
+	local health_subtracted = self:_calc_armor_damage(attack_data)
+	
+	health_subtracted = health_subtracted or self:_calc_health_damage(attack_data)	
+	self._next_allowed_dmg_t = TimerManager:game():time() + self._dmg_interval
+	self._last_received_dmg = health_subtracted
+	if not self._bleed_out and health_subtracted > 0 then
+		self:_send_damage_drama(attack_data, health_subtracted)
+	elseif self._bleed_out then
+		managers.challenges:set_flag("bullet_to_bleed_out")
+	end
+ 
+	self:_call_listeners(damage_info)
+end
