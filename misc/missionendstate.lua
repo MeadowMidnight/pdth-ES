@@ -15,5 +15,7 @@ module:hook(MissionEndState, "at_enter", function(self, old_state, params)
 		if plr_inv:unit_by_selection(1):base():get_name_id() == "glock" and plr_inv:unit_by_selection(2):base():get_name_id() == "ak47" or plr_inv:unit_by_selection(1):base():get_name_id() == "glock" and plr_inv:unit_by_selection(2):base():get_name_id() == "m79" then
             managers.challenges:set_flag("det_gadget")
         end
+    elseif self._success and plr_inv:unit_by_selection(2):base():get_name_id() == "m79" and Global.level_data.level_id == "secret_stash" and Global.game_settings.difficulty == "overkill_145" then
+        managers.challenges:set_flag("blow_out")
     end
 end, false)

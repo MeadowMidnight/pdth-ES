@@ -9,7 +9,7 @@ function PlayerTased:_update_check_actions(t, dt)
 		self._unit:camera():play_shaker("player_taser_shock", 0.5, 5)
 		self._camera_unit:base():start_shooting()
 		self._recoil_t = t + 0
-		self._camera_unit:base():recoil_kick(-1, 1) -- Causes the most annoyance for aiming...
+		self._camera_unit:base():recoil_kick(-2.5, 2.5) -- Causes the most annoyance for aiming...
 		input.btn_primary_attack_state = true
 		input.btn_primary_attack_press = true
 		self._unit:camera():camera_unit():base():set_target_tilt((math.random(2) == 1 and -1 or 1) * math.random(10))
@@ -30,7 +30,7 @@ function PlayerTased:_update_check_actions(t, dt)
 	managers.environment_controller:set_taser_value(self._taser_value)
 	self._shooting = self:_check_action_primary_attack(t, input)
 	if self._shooting then
-		self._camera_unit:base():recoil_kick(-1, 1) -- also this.
+		self._camera_unit:base():recoil_kick(-2.5, 2.5) -- also this.
 	end
 
 	if self._unequip_weapon_expire_t and t >= self._unequip_weapon_expire_t then

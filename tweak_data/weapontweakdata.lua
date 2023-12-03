@@ -83,7 +83,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mp5.spread.moving_standing = 2.7
 	self.mp5.spread.moving_crouching = 2.28
 
-
+	self.r870_shotgun.single.fire_rate = 1
 	self.ak47.auto.fire_rate = 0.09
 	
 	self.hk21.auto.fire_rate = 0.075

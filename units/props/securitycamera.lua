@@ -5,6 +5,6 @@ end
 function SecurityCamera:generate_cooldown(amount)
 	managers.hint:show_hint("destroyed_security_camera")
 	managers.statistics:camera_destroyed()
-	managers.experience:add_points(200, true)
+	managers.experience:add_points(100, true)
 	managers.challenges:set_flag("kill_cameras")
 end

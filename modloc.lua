@@ -78,6 +78,9 @@ module:add_localization_string("BR_desc", {
 module:add_localization_string("ch_kill_cameras", {
 	english = "Destroy a camera.",
 })
+module:add_localization_string("ch_blow_out", {
+	english = "Complete Undercover on Overkill 145+ with the GL40 Launcher in your primary slot in the heist (Weapon Rebalance) OR complete Undercover using only the GL40 as your secondary weapon slot (Vanilla)",
+})
 module:add_localization_string("MS_name", {
 	english = "Multiplayer Spawns",
 })
