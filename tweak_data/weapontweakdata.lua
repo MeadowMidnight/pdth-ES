@@ -11,8 +11,8 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	end
 	-- GL40 --
 	-- More damage, explosion range and ammo pickup at the cost of it now taking up your primary slot.
-	self.m79.DAMAGE = 80
-	self.m79.EXPLOSION_RANGE = 750
+	self.m79.DAMAGE = 60
+	self.m79.EXPLOSION_RANGE = 600
 	self.m79.NR_CLIPS_MAX = 4
 	self.m79.AMMO_PICKUP = {-2, 1}
 	self.m79.use_data.selection_index = 2
