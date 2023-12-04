@@ -4,6 +4,7 @@ module:hook_post_require("lib/units/interactions/interactionext", "misc/block_in
 module:hook_post_require("lib/managers/objectinteractionmanager", "misc/block_interaction")
 module:hook_post_require("lib/network/matchmaking/networkaccountsteam", "misc/network")
 module:hook_post_require("lib/managers/menumanager", "managers/menumanager")
+module:hook_post_require("lib/managers/playermanager", "managers/playermanager")
 module:hook_post_require("lib/units/weapons/raycastweaponbase", "units/weapons/raycastweaponbase")
 module:hook_post_require("lib/units/weapons/grenades/m79grenadebase", "units/weapons/m79grenadebase")
 module:hook_post_require("lib/units/equipment/doctor_bag/doctorbagbase", "misc/bag_collision")
