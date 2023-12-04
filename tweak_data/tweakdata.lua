@@ -26,6 +26,12 @@ module:post_hook(TweakDataHook, "init", function(self)
 	self.weapon["m4_npc"].alert_size = 500
 	self.weapon["mp5_npc"].alert_size = 500
 	self.weapon["raging_bull_npc"].alert_size = 500
+	self.character.presets["gang_member_damage"].hurt_severity = {
+		1,
+		1,
+		1,
+		1
+	 }
 end, false)
 function TweakData:_set_easy()
 	self.player:_set_easy()

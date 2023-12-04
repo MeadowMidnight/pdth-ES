@@ -87,4 +87,6 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.ak47.auto.fire_rate = 0.09
 	
 	self.hk21.auto.fire_rate = 0.075
+
+	self.raging_bull.timers.reload_empty = 5.8
 end, false)

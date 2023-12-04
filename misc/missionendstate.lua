@@ -8,6 +8,7 @@ if not is_singleplayer then
 end
 module:hook(MissionEndState, "at_enter", function(self, old_state, params)
     module:call_orig(MissionEndState, "at_enter", self, old_state, params)
+    local plr_inv = managers.player:player_unit():inventory()
     if self._success and crew_bonus == "noob_lube" and crew_bonus2 == "noob_lube" and crew_bonus3 == "noob_lube" and tweak_data:difficulty_to_index(Global.game_settings.difficulty) >= 4 then
         managers.challenges:set_flag("noob_herder")
     elseif self._success and managers.player:crew_bonus_in_slot(1) == "more_ammo" and managers.player:equipment_in_slot(1) == "sentry_gun" and managers.player:equipment_in_slot(2) == "toolset" then

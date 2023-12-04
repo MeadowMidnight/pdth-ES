@@ -40,16 +40,16 @@ module:add_localization_string("nice_text", {
 	english = "Mr Nice Guy",
 })
 module:add_localization_string("VW_name", {
-	english = "Vanilla Weapon Stats",
+	english = "Rebalanced Weapon Stats",
 })
 module:add_localization_string("VW_desc", {
-	english = "Uses the default stats of weapons instead of the modified values of this mod.",
+	english = "Uses the modified stats of weapons in this mod instead of the default vanilla stats.",
 })
 module:add_localization_string("VB_name", {
-	english = "Vanilla Crew Bonuses",
+	english = "Buffed Crew Bonuses",
 })
 module:add_localization_string("VB_desc", {
-	english = "Uses the default stats of crew bonuses instead of the modified values of this mod.",
+	english = "Buffs the underused crew bonuses from their default vanilla stats.",
 })
 module:add_localization_string("BH_name", {
 	english = "Bot Health",
@@ -85,5 +85,5 @@ module:add_localization_string("MS_name", {
 	english = "Multiplayer Spawns",
 })
 module:add_localization_string("MS_desc", {
-	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. This will also fix the 25 police limit oversight, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force. ",
+	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. This will also fix the 25 police limit oversight, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force.",
 })
