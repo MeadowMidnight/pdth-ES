@@ -1,7 +1,5 @@
 local module = ...
 
-module:hook_post_require("lib/units/interactions/interactionext", "misc/block_interaction")
-module:hook_post_require("lib/managers/objectinteractionmanager", "misc/block_interaction")
 module:hook_post_require("lib/network/matchmaking/networkaccountsteam", "misc/network")
 module:hook_post_require("lib/managers/menumanager", "managers/menumanager")
 module:hook_post_require("lib/managers/playermanager", "managers/playermanager")
