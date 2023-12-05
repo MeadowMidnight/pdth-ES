@@ -28,8 +28,7 @@ function GroupAIStateStreet:_upd_assault_task(t)
 		end
 	elseif task_phase == "sustain" then
 		if t > task_data.phase_end_t and not self._hunt_mode then
-			local hostage_count = managers.groupai:state():hostage_count()
-			local extratime = 10 * hostage_count
+			local extratime = 10 * managers.groupai:state():hostage_count()
 			if extratime > 40 then extratime = 40 end
 			task_data.phase = "fade"
 			task_phase = task_data.phase
