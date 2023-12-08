@@ -100,7 +100,7 @@ if diff_overhaul then
 	end, false)
 	module:post_hook(WeaponTweakData, "_init_data_m4_npc", function(self)
 		self.m4_npc.DAMAGE = 1.5
-		self.m4_npc.auto.fire_rate = 0.1
+	--	self.m4_npc.auto.fire_rate = 0.1
 	end, false)
 	module:post_hook(WeaponTweakData, "_init_data_mac11_npc", function(self)
 		self.mac11_npc.DAMAGE = 0.8

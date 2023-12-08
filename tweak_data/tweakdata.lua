@@ -108,3 +108,14 @@ function TweakData:_set_overkill_145()
 	self.experience_manager.values.size06 = 1000
 	self.experience_manager.values.size18 = 2000
 end
+module:post_hook(TweakDataHook, "post_init", function(self)
+	for _, mask_id in pairs({ "developer", "hockey_com", "troll", "tester", "vyse" }) do
+		local mask_set = deep_clone(self.mask_sets[mask_id])
+		mask_set.is_custom = true
+		mask_set.allow_sync = true
+		mask_set.fallback = "clowns"
+
+		self.mask_sets["fake_" .. mask_id] = mask_set
+	end
+end)
+end

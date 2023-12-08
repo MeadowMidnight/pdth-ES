@@ -49,8 +49,10 @@ module:post_hook(GroupHook, "init", function(self)
 	self.street.blockade.force.frontal = {20, 20, 20}
 	self.street.blockade.force.defend = {10, 10, 10}
 
-	self.besiege.assault.sustain_duration_min = {120, 120, 120}
-	self.besiege.assault.sustain_duration_max = {120, 120, 120}
+	--self.besiege.assault.sustain_duration_min = {120, 120, 120}
+--	self.besiege.assault.sustain_duration_max = {120, 120, 120}
+	self.besiege.assault.sustain_duration_min = {20, 20, 20}
+    self.besiege.assault.sustain_duration_max = {20, 20, 20}
 	self.street.assault.sustain_duration_min = {150, 150, 150}
 	self.street.assault.sustain_duration_max = {150, 150, 150}
 	self.street.blockade.sustain_duration_min = {90, 90, 90}
@@ -59,6 +61,10 @@ module:post_hook(GroupHook, "init", function(self)
 	self.besiege.assault.delay = {60, 60, 60}
 	self.street.assault.delay = {100, 100, 100}
 	self.street.blockade.delay = {80, 80, 80}
+
+	self.street.assault.build_duration = 1
+	self.besiege.assault.build_duration = 1
+	self.street.blockade.build_duration = 1
 
 	self.besiege.assault.units = {
 		swat = {1, 0, 0},
