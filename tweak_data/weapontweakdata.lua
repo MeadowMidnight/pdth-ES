@@ -6,7 +6,7 @@ if not is_singleplayer then
 end
 local WeaponTweakData = module:hook_class("WeaponTweakData")
 module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
-	if vanilla_weapons then
+	if not vanilla_weapons then
 		return
 	end
 	-- GL40 --
@@ -90,3 +90,19 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	self.raging_bull.timers.reload_empty = 5.8
 end, false)
+local diff_overhaul = D:conf("difficulty_overhaul") or false
+if diff_overhaul then
+	module:post_hook(WeaponTweakData, "_init_data_r870_npc", function(self)
+		self.r870_npc.DAMAGE = 5
+	end, false)
+	module:post_hook(WeaponTweakData, "_init_data_sniper_rifle_npc", function(self)
+		self.sniper_rifle_npc.DAMAGE = 1.5
+	end, false)
+	module:post_hook(WeaponTweakData, "_init_data_m4_npc", function(self)
+		self.m4_npc.DAMAGE = 1.5
+		self.m4_npc.auto.fire_rate = 0.1
+	end, false)
+	module:post_hook(WeaponTweakData, "_init_data_mac11_npc", function(self)
+		self.mac11_npc.DAMAGE = 0.8
+	end, false)
+end

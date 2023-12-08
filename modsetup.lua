@@ -66,6 +66,20 @@ module:add_menu_option("bot_regen", {
 	default_value = 2.5
 })
 
+module:add_menu_option("multi_spawns", {
+	type = "boolean",
+	text_id = "MS_name",
+	help_id = "MS_desc",
+	default_value = false
+})
+
+module:add_menu_option("difficulty_overhaul", {
+	type = "boolean",
+	text_id = "DO_name",
+	help_id = "DO_desc",
+	default_value = false
+})
+
 module:add_menu_option("max_key", {
 	type = "keybind",
 	name = {
@@ -78,9 +92,3 @@ end
 module:hook("OnKeyPressed", "max_key", nil, "GAME", function()
 	max_out()
 end)
-module:add_menu_option("multi_spawns", {
-	type = "boolean",
-	text_id = "MS_name",
-	help_id = "MS_desc",
-	default_value = false
-})

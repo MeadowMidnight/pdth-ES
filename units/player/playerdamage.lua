@@ -8,7 +8,7 @@ local protector_multi = 1.5
 if not is_singleplayer then
 	return
 end
-if vanilla_bonuses then
+if not vanilla_bonuses then
     local protector_multi = 1.1
 end
 function PlayerDamage:_max_armor()

@@ -10,7 +10,7 @@ module:add_localization_string("crew_bonus_name3", {
 	english = "Crew Bonus #3",
 })
 module:add_localization_string("crew_bonus_description", {
-	english = "Select from one of the crew bonuses that exist to regular players in vanilla multiplayer gameplay. You can only select a max of 3 crew bonuses. Note that crew bonuses do not stack and doesn't work for bots, it only works for yourself.",
+	english = "Select from one of the crew bonuses that exist to regular players in multiplayer gameplay. You can only select a max of 3 crew bonuses. Note that crew bonuses do not stack and doesn't work for bots, it only works for yourself.",
 })
 module:add_localization_string("not_active", {
 	english = "Not Active",
@@ -85,5 +85,11 @@ module:add_localization_string("MS_name", {
 	english = "Multiplayer Spawns",
 })
 module:add_localization_string("MS_desc", {
-	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. This will also fix the 25 police limit oversight, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force.",
+	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. The 25 police limit oversight is fixed in this mod, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force. THIS WILL NOT WORK WITH THE DIFFICULTY OVERHAUL OPTION!",
+})
+module:add_localization_string("DO_name", {
+	english = "JOKE Difficulty Overhaul",
+})
+module:add_localization_string("DO_desc", {
+	english = "Literally nerfs the enemy side balance even further to be skewed in the player's benefit. This is for people who complain about long assault waves, inhuman enemy reaction times, short assault breaks and any other totally cheap mechanics in this game. ",
 })

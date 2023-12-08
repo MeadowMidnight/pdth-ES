@@ -3,8 +3,9 @@ if not is_singleplayer then
 	return
 end
 local multi_spawns = D:conf("multi_spawns") or false
+local diff_overhaul = D:conf("difficulty_overhaul") or false
 local GroupHook = module:hook_class("GroupAITweakData")
-if not multi_spawns then
+if not multi_spawns or diff_overhaul then
 	return
 end
 module:post_hook(GroupHook, "_set_easy", function(self)

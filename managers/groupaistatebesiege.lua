@@ -1,8 +1,29 @@
 local is_singleplayer = Global.game_settings and Global.game_settings.single_player
+local module = ...
+local groupaihook = module:hook_class("GroupAIStateBesiege")
 if not is_singleplayer then
 	return
 end
-function GroupAIStateBesiege:_upd_assault_task()
+module:post_hook(groupaihook, "_upd_assault_task", function(self)
+	local t = self._t
+	local task_data = self._task_data.assault
+	if not task_data.active then
+		return
+	end
+	local task_phase = task_data.phase
+	if task_phase == "sustain" then
+		if t > task_data.phase_end_t and not self._hunt_mode then
+			local extratime = 10 * managers.groupai:state():hostage_count()
+			if extratime > 40 then extratime = 40 end
+			task_data.phase = "fade"
+			task_phase = task_data.phase
+			task_data.use_smoke = false
+			task_data.use_smoke_timer = t + 20
+			task_data.phase_end_t = t + 10 + extratime
+		end
+	end
+end, false)
+--[[function GroupAIStateBesiege:_upd_assault_task()
 	local task_data = self._task_data.assault
 	if not task_data.active then
 		return
@@ -196,4 +217,4 @@ function GroupAIStateBesiege:_upd_assault_task()
 end
 function GroupAIStateBesiege:is_smoke_grenade_active()
 	return false
-end
+end ]]
