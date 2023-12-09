@@ -118,4 +118,3 @@ module:post_hook(TweakDataHook, "post_init", function(self)
 		self.mask_sets["fake_" .. mask_id] = mask_set
 	end
 end)
-end

@@ -41,4 +41,3 @@ module:post_hook(MaskOptionInitiator, "add_additional_items", function(self, dat
 		end
 	end
 end, true)
-end

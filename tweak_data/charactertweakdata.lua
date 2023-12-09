@@ -137,7 +137,7 @@ if diff_overhaul then
 		presets.weapon.normal.c45.FALLOFF[4].dmg_mul = 0
 		presets.weapon.normal.m4.aim_delay = aimdelay_value
 		presets.weapon.normal.r870.aim_delay = aimdelay_value
-		p--resets.weapon.normal.r870.FALLOFF[4].dmg_mul = 0
+		--presets.weapon.normal.r870.FALLOFF[4].dmg_mul = 0
 		presets.weapon.normal.r870.FALLOFF[5].dmg_mul = 0
 		presets.weapon.normal.r870.hit_chance = {
 			near = {1, 1},
