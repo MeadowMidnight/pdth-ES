@@ -21,23 +21,103 @@ module:hook(MenuManager, "refresh_level_select", function(node, verify_dlc_owned
 		item_difficulty:set_value(Global.game_settings.difficulty)
 	end
 end)
-local MaskOptionInitiator = module:hook_class("MaskOptionInitiator")
-module:post_hook(MaskOptionInitiator, "add_additional_items", function(self, data_node)
-	local weight = 1.11
-	for mask_key, mask_id in pairs({
-		developer = "developer",
-		hockey_com = "hockey_com",
-		troll = "troll",
-		tester_group = "tester",
-		vyse = "vyse",
-	}) do
-		if not managers.network.account:has_mask(mask_key) then -- prevent dupes
-			table.insert(data_node, {
-				text_id = "menu_mask_" .. mask_id,
-				value = "fake_" .. mask_id,
-				weight = weight,
-			})
-			weight = weight + 0.01
-		end
+MaskOptionInitiator = MaskOptionInitiator or class()
+function MaskOptionInitiator:modify_node(node)
+	local choose_mask = node:item("choose_mask")
+	local params = {
+		name = "choose_mask",
+		text_id = "menu_choose_mask",
+		callback = "choice_mask"
+	}
+	if choose_mask:parameters().help_id then
+		params.help_id = choose_mask:parameters().help_id
 	end
-end, true)
+	local data_node = {
+		type = "MenuItemMultiChoice"
+	}
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_clowns",
+		value = "clowns"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_developer",
+		value = "developer"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_hockey_com",
+		value = "hockey_com"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_alienware",
+		value = "alienware"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_bf3",
+		value = "bf3"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_santa",
+		value = "santa"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_president",
+		value = "president"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_gold",
+		value = "gold"
+	})
+	if SystemInfo:platform() == Idstring("WIN32") and (Steam:is_product_owned(500) or Steam:is_product_owned(550)) then
+		table.insert(data_node, {
+			_meta = "option",
+			text_id = "menu_mask_zombie",
+			value = "zombie"
+		})
+	end
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_troll",
+		value = "troll"
+	})
+	if SystemInfo:platform() == Idstring("WIN32") and Steam:is_product_owned(207816) then
+		table.insert(data_node, {
+			_meta = "option",
+			text_id = "menu_mask_music",
+			value = "music"
+		})
+	end
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_vyse",
+		value = "vyse"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_halloween",
+		value = "halloween"
+	})
+	table.insert(data_node, {
+		_meta = "option",
+		text_id = "menu_mask_tester",
+		value = "tester"
+	})
+	if SystemInfo:platform() == Idstring("WIN32") then
+		table.insert(data_node, {
+			_meta = "option",
+			text_id = "menu_mask_end_of_the_world",
+			value = "end_of_the_world"
+		})
+	end
+	choose_mask:init(data_node, params)
+	choose_mask:set_callback_handler(MenuCallbackHandler:new())
+	choose_mask:set_value(managers.user:get_setting("mask_set"))
+	return node
+end
