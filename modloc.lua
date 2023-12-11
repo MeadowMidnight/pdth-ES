@@ -81,10 +81,10 @@ module:add_localization_string("ch_kill_cameras", {
 module:add_localization_string("ch_blow_out", {
 	english = "Complete Undercover on Overkill 145+ with the GL40 Launcher in your primary slot in the heist (Weapon Rebalance) OR complete Undercover using only the GL40 as your secondary weapon slot (Vanilla)",
 })
-module:add_localization_string("MS_name", {
+module:add_localization_string("mutator_multi_spawns", {
 	english = "Multiplayer Spawns",
 })
-module:add_localization_string("MS_desc", {
+module:add_localization_string("mutator_multi_spawns_help", {
 	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. The 25 police limit oversight is fixed in this mod, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force. THIS WILL NOT WORK WITH THE DIFFICULTY OVERHAUL OPTION!",
 })
 module:add_localization_string("DO_name", {

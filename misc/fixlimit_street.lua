@@ -4,5 +4,5 @@ if not is_singleplayer then
 end
 local GroupHook = module:hook_class("GroupAIStateStreet")
 module:post_hook(GroupHook, "_init_misc_data", function(self)
-	self._police_force_max = 100
+	self._police_force_max = 25
 end, false)

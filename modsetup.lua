@@ -66,12 +66,12 @@ module:add_menu_option("bot_regen", {
 	default_value = 2.5
 })
 
-module:add_menu_option("multi_spawns", {
+--[[module:add_menu_option("multi_spawns", {
 	type = "boolean",
 	text_id = "MS_name",
 	help_id = "MS_desc",
 	default_value = false
-})
+}) ]]
 
 module:add_menu_option("difficulty_overhaul", {
 	type = "boolean",

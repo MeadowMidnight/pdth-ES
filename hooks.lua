@@ -13,7 +13,6 @@ module:hook_post_require("lib/units/player_team/teamaidamage", "units/bots/teama
 module:hook_post_require("lib/units/player_team/teamaimovement", "units/bots/teamaimovement")
 module:hook_post_require("lib/units/props/timergui", "units/props/timergui")
 module:hook_post_require("lib/tweak_data/tweakdata", "tweak_data/tweakdata")
-module:hook_post_require("lib/tweak_data/groupaitweakdata", "tweak_data/multispawns")
 module:hook_post_require("lib/tweak_data/groupaitweakdata", "tweak_data/groupaitweakdata")
 module:hook_post_require("lib/tweak_data/playertweakdata", "tweak_data/overhaulplayer")
 module:hook_post_require("lib/tweak_data/playertweakdata", "tweak_data/playertweakdata")
@@ -37,3 +36,12 @@ module:hook_post_require("lib/units/beings/player/states/playerstandard", "units
 module:hook_post_require("lib/units/beings/player/states/playertased", "units/player/playertased")
 module:hook_post_require("lib/units/props/securitycamera", "units/props/securitycamera")
 module:hook_post_require("lib/units/props/securitylockgui", "units/props/securitylockgui")
+
+-- Load mutators --
+module:hook("OnModuleLoading", "load_mutator", function(m)
+	local mutator_availability = { all = true }
+
+	if MutatorHelper.setup_mutator(m, "multi_spawns", mutator_availability, nil, true) then
+		m:hook_post_require("lib/tweak_data/groupaitweakdata", "tweak_data/multispawns")
+	end
+end)
