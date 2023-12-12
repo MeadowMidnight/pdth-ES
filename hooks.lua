@@ -28,6 +28,7 @@ module:hook_post_require("lib/managers/experiencemanager", "managers/experiencem
 module:hook_post_require("lib/units/props/christmaspresentbase", "units/props/christmaspresentbase")
 module:hook_post_require("lib/network/matchmaking/networkmatchmakingsteam", "misc/network2")
 module:hook_post_require("lib/units/beings/player/playerdamage", "units/player/playerdamage")
+module:hook_post_require("lib/units/civilians/civiliandamage", "units/civilians/civiliandamage")
 module:hook_post_require("lib/managers/group_ai_states/groupaistatebesiege", "misc/fixlimit")
 module:hook_post_require("lib/managers/group_ai_states/groupaistatestreet", "misc/fixlimit_street")
 module:hook_post_require("lib/states/missionendstate", "misc/missionendstate")
