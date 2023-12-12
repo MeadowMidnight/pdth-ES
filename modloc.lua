@@ -88,7 +88,7 @@ module:add_localization_string("mutator_multi_spawns_help", {
 	english = "When this option is turned on, the enemy limit of police forces will be the same as playing multiplayer. The 25 police limit oversight is fixed in this mod, therefore making Overkill 145+ much harder since it was originally supposed to have 35 enemies in it's besiege assault force. THIS WILL NOT WORK WITH THE DIFFICULTY OVERHAUL OPTION!",
 })
 module:add_localization_string("DO_name", {
-	english = "JOKE Difficulty Overhaul",
+	english = "JOKE Difficulty Overhaul (NOT RECOMMENDED)",
 })
 module:add_localization_string("DO_desc", {
 	english = "Literally nerfs the enemy side balance even further to be skewed in the player's benefit. This is for people who complain about long assault waves, inhuman enemy reaction times, short assault breaks and any other totally cheap mechanics in this game. ",
