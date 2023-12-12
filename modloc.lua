@@ -45,10 +45,10 @@ module:add_localization_string("VW_name", {
 module:add_localization_string("VW_desc", {
 	english = "Uses the modified stats of weapons in this mod instead of the default vanilla stats.",
 })
-module:add_localization_string("VB_name", {
+module:add_localization_string("BB_name", {
 	english = "Buffed Crew Bonuses",
 })
-module:add_localization_string("VB_desc", {
+module:add_localization_string("BB_desc", {
 	english = "Buffs the underused crew bonuses from their default vanilla stats.",
 })
 module:add_localization_string("BH_name", {

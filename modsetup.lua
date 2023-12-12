@@ -28,10 +28,10 @@ module:add_menu_option("vanilla_weapons", {
 	help_id = "VW_desc",
 	default_value = true
 })
-module:add_menu_option("vanilla_bonuses", {
+module:add_menu_option("buffed_bonuses", {
 	type = "boolean",
-	text_id = "VB_name",
-	help_id = "VB_desc",
+	text_id = "BB_name",
+	help_id = "BB_desc",
 	default_value = true
 })
 module:add_menu_option("bot_arrest", {

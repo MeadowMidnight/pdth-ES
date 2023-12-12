@@ -4,17 +4,17 @@ local module = ...
 local crew_bonus = D:conf("crew_bonus_1") or false
 local crew_bonus2 = D:conf("crew_bonus_2") or false
 local crew_bonus3 = D:conf("crew_bonus_3") or false
-local vanilla_bonuses = D:conf("vanilla_bonuses") or false
-local reload_multi = 1.2
-local sharp_multi = 0.75
+local buffed_bonuses = D:conf("buffed_bonuses") or false
+reload_multi = 1.2
+sharp_multi = 0.75
 local RaycastWeaponBase = module:hook_class("RaycastWeaponBase")
 local is_singleplayer = Global.game_settings and Global.game_settings.single_player
 if not is_singleplayer then
 	return
 end
-if not vanilla_bonuses then
-    local reload_multi = 1.1
-    local sharp_multi = 0.9
+if not buffed_bonuses then
+    reload_multi = 1.1
+    sharp_multi = 0.9
 end
 function RaycastWeaponBase:init(...)
 	init_original(self, ...)
@@ -84,89 +84,3 @@ end)
 module:pre_hook(RaycastWeaponBase, "fire", function(self)
     self:_fire_sound()
 end)
-
---[[local EnemyFalloffs = {
-    m4_npc            = 5000,
-    m14_npc           = 10000,
-    c45_npc           = 2250,
-    beretta92_npc     = 3000,
-    raging_bull_npc   = 2700,
-    r870_npc          = 1500,
-    mossberg_npc      = 1200,
-    mp5_npc           = 4500,
-    mac11_npc         = 3750,
-    hk21_npc          = 4000,
-    shield_pistol_npc = 2250,
-    sniper_rifle_npc  = 60000,
-    m79_npc           = 0x7FFFFFFF,   -- grenades don't miss
-    glock_18_npc      = 1500,
-    ak47_npc          = 4000,
-    sentry_gun_npc    = 3000
-}
- 
-function RaycastWeaponBase:damage_player(col_ray, from_pos, direction)
-    local unit = managers.player:player_unit()
-    if not unit then
-        return
-    end
- 
-    local ray_data = {}
-    ray_data.ray = direction
-    ray_data.normal = -direction
-    local head_pos = unit:movement():m_head_pos()
-    local head_dir = Vector3()  -- this was a temporary global variable, I have no idea why
-    local head_dis = mvector3.direction(head_dir, from_pos, head_pos)
-    local shoot_dir = Vector3() -- this one too
-    mvector3.set(shoot_dir, col_ray and col_ray.ray or direction)
-    local cos_f = mvector3.dot(shoot_dir, head_dir)
-    if cos_f <= 0.1 then
-        return
-    end
- 
-    local hitFalloff = 0x7FFFFFFF
-    local missMult   = 0
-    local hitChance
- 
-    if EnemyFalloffs[self._name_id] ~= nil then
-        hitFalloff = EnemyFalloffs[self._name_id]
-    end
- 
-    if head_dis > 0 then
-        missMult = head_dis / hitFalloff
-    end
- 
-    if missMult > 4 then
-        hitChance = 0
-    else
-        hitChance = 1 / math.pow(2, missMult)
-    end
- 
-    local b = head_dis / cos_f
-    if not col_ray or b < col_ray.distance then
-        mvector3.set_length(shoot_dir, b)
-        mvector3.multiply(head_dir, head_dis)
-        mvector3.subtract(shoot_dir, head_dir)
-        local proj_len = mvector3.length(shoot_dir)
-        ray_data.position = head_pos + shoot_dir
-        if proj_len < 30 then
-            if World:raycast("ray", from_pos, head_pos, "slot_mask", self._bullet_slotmask, "ignore_unit", self._setup.ignore_units, "report") then
-                return nil, ray_data
-            else
-                local hitDie = math.random()
- 
-                if hitDie > hitChance then
-                    unit:character_damage():play_whizby(ray_data.position)
-                    return nil, ray_data
-                end
- 
-                return true, ray_data
-            end
- 
-        elseif proj_len < 100 and b > 500 then
-            unit:character_damage():play_whizby(ray_data.position)
-        end
- 
-    end
- 
-    return nil, ray_data
-end ]]

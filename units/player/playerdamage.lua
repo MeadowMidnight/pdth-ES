@@ -3,13 +3,13 @@ local module = ...
 local crew_bonus = D:conf("crew_bonus_1") or false
 local crew_bonus2 = D:conf("crew_bonus_2") or false
 local crew_bonus3 = D:conf("crew_bonus_3") or false
-local vanilla_bonuses = D:conf("vanilla_bonuses") or false
-local protector_multi = 1.5
+local buffed_bonuses = D:conf("buffed_bonuses") or false
+protector_multi = 1.5
 if not is_singleplayer then
 	return
 end
-if not vanilla_bonuses then
-    local protector_multi = 1.1
+if not buffed_bonuses then
+    protector_multi = 1.1
 end
 function PlayerDamage:_max_armor()
 	if crew_bonus == "protector" or crew_bonus2 == "protector" or crew_bonus3 == "protector" then
