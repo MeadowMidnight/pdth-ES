@@ -18,32 +18,37 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mossberg.DAMAGE = 6
 	self.mossberg.AMMO_PICKUP = {1, 1}
 
-	self.mac11.AMMO_MAX = 90
+	self.mac11.AMMO_MAX = 108
 	self.mac11.AMMO_PICKUP = {4, 4}
 	self.mac11.DAMAGE = 2.4
 	self.mac11.auto.fire_rate = 0.05
 
-	self.beretta92.DAMAGE = 2
+	self.m14.AMMO_PICKUP = {3, 3}
+	self.m14.AMMO_MAX = 60
 
-	self.beretta92.spread.standing = 2
-	self.beretta92.spread.crouching = 1.4
-	self.beretta92.spread.steelsight = 0.8
-	self.beretta92.spread.moving_standing = 2
-	self.beretta92.spread.moving_crouching = 2
+	self.beretta92.DAMAGE = 1.5
+	self.beretta92.AMMO_MAX = 80
+	--self.beretta92.spread.standing = 2
+	--self.beretta92.spread.crouching = 1.4
+	---self.beretta92.spread.steelsight = 0.8
+	--self.beretta92.spread.moving_standing = 2
+	--self.beretta92.spread.moving_crouching = 2
+	self.beretta92.AMMO_PICKUP = {5, 5}
 
-	self.c45.CLIP_AMMO_MAX = 8
-	self.c45.AMMO_MAX = 36
-	self.c45.AMMO_PICKUP = {2, 2}
-	self.c45.DAMAGE = 3.5
+	--self.c45.CLIP_AMMO_MAX = 4
+	self.c45.AMMO_MAX = 56
+	--self.c45.AMMO_MAX = 36
+	self.c45.AMMO_PICKUP = {3, 3}
+	self.c45.DAMAGE = 3
 
-	self.c45.spread.standing = 3
-	self.c45.spread.crouching = 2.1
-	self.c45.spread.steelsight = 1.2
-	self.c45.spread.moving_standing = 3.5
-	self.c45.spread.moving_crouching = 3.5
+	--self.c45.spread.standing = 3
+	--self.c45.spread.crouching = 2.1
+	--self.c45.spread.steelsight = 1.2
+	--self.c45.spread.moving_standing = 3.5
+	--self.c45.spread.moving_crouching = 3.5
 
 	self.glock.AMMO_MAX = 80
-	self.glock.AMMO_PICKUP = {3, 3}
+	self.glock.AMMO_PICKUP = {4, 4}
 	self.glock.DAMAGE = 1.75
 
 	self.glock.spread.standing = 3.5
@@ -55,10 +60,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	self.m4.kick.v.steelsight = 0.1
 	self.m4.kick.h.steelsight = 0.1
-
-	self.m14.AMMO_MAX = 60
-	self.m14.AMMO_PICKUP = {3, 3}
-
+	self.m4.AMMO_PICKUP = {6, 6}
 
 	self.mp5.DAMAGE = 1.6
 	self.mp5.AMMO_MAX = 120
@@ -71,11 +73,20 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mp5.spread.moving_crouching = 2.28
 
 	self.r870_shotgun.single.fire_rate = 1
+	self.r870_shotgun.AMMO_PICKUP = {2, 2}
+
 	self.ak47.auto.fire_rate = 0.09
+	self.ak47.AMMO_MAX = 140
+	self.ak47.AMMO_PICKUP = {4, 4}
 	
 	self.hk21.auto.fire_rate = 0.075
+	self.hk21.CLIP_AMMO_MAX = 40
+	self.hk21.AMMO_PICKUP = {7, 7}
 
 	self.raging_bull.timers.reload_empty = 5.8
+	self.raging_bull.AMMO_PICKUP = {1, 1}
+	self.raging_bull.spread.steelsight = 0
+	self.raging_bull.AMMO_MAX = 30
 end, false)
 local diff_overhaul = D:conf("difficulty_overhaul") or false
 if diff_overhaul then
