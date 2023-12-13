@@ -51,19 +51,19 @@ module:add_menu_option("rebalanced_weapons", {
 	type = "boolean",
 	text_id = "RW_name",
 	help_id = "RW_desc",
-	default_value = true
+	default_value = false
 })
 module:add_menu_option("buffed_bonuses", {
 	type = "boolean",
 	text_id = "BB_name",
 	help_id = "BB_desc",
-	default_value = true
+	default_value = false
 })
 module:add_menu_option("bot_arrest", {
 	type = "boolean",
 	text_id = "BA_name",
 	help_id = "BA_desc",
-	default_value = false
+	default_value = true
 })
 module:add_menu_option("difficulty_overhaul", {
 	type = "boolean",
