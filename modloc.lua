@@ -39,10 +39,10 @@ module:add_localization_string("noob_text", {
 module:add_localization_string("nice_text", {
 	english = "Mr Nice Guy",
 })
-module:add_localization_string("VW_name", {
+module:add_localization_string("RW_name", {
 	english = "Rebalanced Weapon Stats",
 })
-module:add_localization_string("VW_desc", {
+module:add_localization_string("RW_desc", {
 	english = "Uses the modified stats of weapons in this mod instead of the default vanilla stats.",
 })
 module:add_localization_string("BB_name", {
@@ -79,7 +79,7 @@ module:add_localization_string("ch_kill_cameras", {
 	english = "Destroy a camera.",
 })
 module:add_localization_string("ch_blow_out", {
-	english = "Complete Undercover on Overkill 145+ with the GL40 Launcher in your primary slot in the heist (Weapon Rebalance) OR complete Undercover using only the GL40 as your secondary weapon slot (Vanilla)",
+	english = "Complete Undercover on Overkill 145+ with the GL40 Launcher in your primary slot in the heist (Weapon Rebalance) OR complete Undercover using only the GL40 to kill cops. (Vanilla)",
 })
 module:add_localization_string("mutator_multi_spawns", {
 	english = "Multiplayer Spawns",
@@ -91,5 +91,5 @@ module:add_localization_string("DO_name", {
 	english = "JOKE Difficulty Overhaul (NOT RECOMMENDED)",
 })
 module:add_localization_string("DO_desc", {
-	english = "Literally nerfs the enemy side balance even further to be skewed in the player's benefit. This is for people who complain about long assault waves, inhuman enemy reaction times, short assault breaks and any other totally cheap mechanics in this game. ",
+	english = "Literally nerfs the enemy side balance even further to be skewed in the player's benefit. This is for people who complain about long assault waves, inhuman enemy reaction times, short assault breaks and any other totally cheap mechanics in this game.",
 })

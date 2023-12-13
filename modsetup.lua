@@ -47,10 +47,10 @@ module:add_menu_option("bot_regen", {
 	value_accuracy = 2,
 	default_value = 2.5
 })
-module:add_menu_option("vanilla_weapons", {
+module:add_menu_option("rebalanced_weapons", {
 	type = "boolean",
-	text_id = "VW_name",
-	help_id = "VW_desc",
+	text_id = "RW_name",
+	help_id = "RW_desc",
 	default_value = true
 })
 module:add_menu_option("buffed_bonuses", {
@@ -65,46 +65,12 @@ module:add_menu_option("bot_arrest", {
 	help_id = "BA_desc",
 	default_value = false
 })
---[[module:add_menu_option("bot_health", {	
-	type = "slider",
-	min = 30, max = 150, step = 10,
-	show_value = true,
-	text_id = "BH_name",
-	help_id = "BH_desc",
-	default_value = 750
-})
-module:add_menu_option("bot_speed", {
-	type = "slider",
-	min = 200, max = 1000, step = 20,
-	show_value = true,
-	text_id = "BS_name",
-	help_id = "BS_desc",
-	default_value = 600
-})
-module:add_menu_option("bot_regen", {
-	type = "slider",
-	min = 2, max = 10, step = 0.1,
-	show_value = true,
-	text_id = "BR_name",
-	help_id = "BR_desc",
-	value_accuracy = 2,
-	default_value = 2.5
-}) ]]
-
---[[module:add_menu_option("multi_spawns", {
-	type = "boolean",
-	text_id = "MS_name",
-	help_id = "MS_desc",
-	default_value = false
-}) ]]
-
 module:add_menu_option("difficulty_overhaul", {
 	type = "boolean",
 	text_id = "DO_name",
 	help_id = "DO_desc",
 	default_value = false
 })
-
 module:add_menu_option("max_key", {
 	type = "keybind",
 	name = {
