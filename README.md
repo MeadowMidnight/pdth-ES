@@ -55,9 +55,9 @@ Cash Changes:
 - Finding a christmas present during a heist will give $500k to $2500k depending on the difficulty selected.
 
 # Gameplay Changes:
-AI Changes:
+Team AI Changes:
 - Bot HP is now shown on the in-game HUD.
-- Bots (Team AI) will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
+- Bots will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
 - Bots will no longer attempt to dodge police shots by randomly moving.
 - Bots won't get knocked down after receiving heavy damage.
 - Bot movement speed has been changed to 600 (default) and is consistent for all members.
