@@ -55,10 +55,21 @@ Cash Changes:
 - Finding a christmas present during a heist will give $500k to $2500k depending on the difficulty selected.
 
 # Gameplay Changes:
+Menu Changes:
 - You can now play all heists on Easy difficulty.
+  
+Equipment Changes:
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
 - You have 8 cable ties due to missing players in singleplayer.
 - You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
-- You get +2 trip mines.
+- You get 2 extra trip mines.
+
+AI Changes:
 - Bot HP is now shown on the in-game HUD.
+- Bots (Team AI) will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
+- Bots will no longer attempt to dodge police shots by randomly moving.
+- Bots won't get knocked down after receiving heavy damage.
+- Bot movement speed has been changed to 600 (default) and is consistent for all members.
+
+- Cops and civilians will no longer absorb bullets if they are already dead.
