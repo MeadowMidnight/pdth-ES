@@ -36,7 +36,30 @@ There is also a mod setting where you can enable buffed crew bonuses, which enha
 
 Another mod setting present is the weapon rebalance option, which rebalances all the weapons in the game.
 - All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
-- STRYK no longer has ADS zoom.
+Handguns:
+
+B-9S:
+- Damage: 1 -> 1.5
+- Ammo: 56 -> 80
+- Ammo Pickup: {6, 8} -> {5, 5}
+
+Crosskill 45:
+- Damage: 1.5 -> 3
+- Ammo: 50 -> 56
+- Ammo Pickup: {4, 6} -> {3, 3}
+
+Bronco:
+- Reload time when empty: 4.6 -> 5.8 (unupgraded values)
+- Ammo: 36 -> 30
+- Spread when in ADS: 1.8 -> 0
+- Ammo Pickup: {1, 2} -> {1, 1}
+
+STRYK:
+- Damage: 1 -> 1.5
+- Ammo: 56 -> 160
+- Ammo Pickup: {5, 7} -> {2, 2}
+- Overall Spread is reduced by ~20%.
+- No longer has ADS zoom.
 
 # Progression Changes:
 Challenges have went through several changes:
