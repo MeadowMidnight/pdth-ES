@@ -8,7 +8,7 @@ local diff_overhaul = D:conf("difficulty_overhaul") or false
 local PlayerTweakDataHook = module:hook_class("PlayerTweakData")
 module:post_hook(PlayerTweakDataHook, "init", function(self)
 	self.movement_state.interaction_delay = 1
-	if not rebalanced_weapons then
+	if rebalanced_weapons then
 		self.stances.glock.steelsight.zoom_fov = false
 	end
 end, false)

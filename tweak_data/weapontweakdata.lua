@@ -24,7 +24,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mac11.auto.fire_rate = 0.05
 
 	self.m14.AMMO_PICKUP = {3, 3}
-	self.m14.AMMO_MAX = 60
+	self.m14.AMMO_MAX = 64
 
 	self.beretta92.DAMAGE = 1.5
 	self.beretta92.AMMO_MAX = 80
