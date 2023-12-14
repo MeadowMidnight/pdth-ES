@@ -3,12 +3,12 @@ if not is_singleplayer then
 	return
 end
 local module = ...
-local vanilla_weapons = D:conf("vanilla_weapons") or false
+local rebalanced_weapons = D:conf("rebalanced_weapons") or false
 local diff_overhaul = D:conf("difficulty_overhaul") or false
 local PlayerTweakDataHook = module:hook_class("PlayerTweakData")
 module:post_hook(PlayerTweakDataHook, "init", function(self)
 	self.movement_state.interaction_delay = 1
-	if vanilla_weapons then
+	if not rebalanced_weapons then
 		self.stances.glock.steelsight.zoom_fov = false
 	end
 end, false)
