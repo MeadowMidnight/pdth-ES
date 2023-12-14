@@ -2,7 +2,6 @@ local is_singleplayer = Global.game_settings and Global.game_settings.single_pla
 if not is_singleplayer then
 	return
 end
-local diff_overhaul = D:conf("difficulty_overhaul") or false
 local UpgradesTweakData = module:hook_class("UpgradesTweakData")
 module:post_hook(UpgradesTweakData, "init", function(self)
 	self.values.extra_cable_tie.quantity = {4, 8, 12, 16}
@@ -14,7 +13,4 @@ module:post_hook(UpgradesTweakData, "init", function(self)
 
 	self.doctor_bag_base = 2
 	self.values.doctor_bag.amount_increase = {0, 0, 0}
-	if diff_overhaul then
-		self.values.player.body_armor = {1, 2, 3, 4, 4}
-	end
 end, false)

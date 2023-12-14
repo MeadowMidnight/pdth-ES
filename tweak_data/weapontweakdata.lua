@@ -74,18 +74,3 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.raging_bull.spread.steelsight = 0
 	self.raging_bull.AMMO_MAX = 30
 end, false)
-local diff_overhaul = D:conf("difficulty_overhaul") or false
-if diff_overhaul then
-	module:post_hook(WeaponTweakData, "_init_data_r870_npc", function(self)
-		self.r870_npc.DAMAGE = 5
-	end, false)
-	module:post_hook(WeaponTweakData, "_init_data_sniper_rifle_npc", function(self)
-		self.sniper_rifle_npc.DAMAGE = 1.5
-	end, false)
-	module:post_hook(WeaponTweakData, "_init_data_m4_npc", function(self)
-		self.m4_npc.DAMAGE = 1.5
-	end, false)
-	module:post_hook(WeaponTweakData, "_init_data_mac11_npc", function(self)
-		self.mac11_npc.DAMAGE = 0.8
-	end, false)
-end

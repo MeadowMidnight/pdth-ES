@@ -4,8 +4,6 @@ if not is_singleplayer then
 end
 local TweakDataHook = module:hook_class("TweakData")
 module:post_hook(TweakDataHook, "init", function(self)
-	self.interaction.hack_ipad_jammed.timer = 7.5
-	self.interaction.drill_jammed.timer = 7.5
 	self.interaction.stash_planks.equipment_consume = false
 	self.interaction.stash_planks_pickup.timer = 1
 	self.interaction.stash_planks.timer = 3

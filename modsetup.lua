@@ -65,12 +65,6 @@ module:add_menu_option("bot_arrest", {
 	help_id = "BA_desc",
 	default_value = true
 })
-module:add_menu_option("difficulty_overhaul", {
-	type = "boolean",
-	text_id = "DO_name",
-	help_id = "DO_desc",
-	default_value = false
-})
 module:add_menu_option("max_key", {
 	type = "keybind",
 	name = {
