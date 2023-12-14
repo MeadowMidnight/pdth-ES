@@ -87,6 +87,7 @@ GL40:
 - Ammo Pickup: {-4, 1} -> {-2, 1}
 
 Primary:
+
 AMCAR-4:
 - Ammo Pickup: {2, 10} -> {6, 6}
 - Horizontal Recoil (ADS): -0.45 -> 0.1
