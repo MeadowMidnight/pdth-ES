@@ -39,7 +39,7 @@ Another mod setting present is the weapon rebalance option, which rebalances all
 
 Handguns:
 
-B-9S:
+B9-S:
 - Damage: 1 -> 1.5
 - Ammo: 56 -> 80
 - Ammo Pickup: {6, 8} -> {5, 5}
@@ -61,6 +61,54 @@ STRYK:
 - Ammo Pickup: {5, 7} -> {3, 3}
 - Overall Spread is reduced by ~20%.
 - No longer has ADS zoom.
+
+Secondary:
+
+Compact-5:
+- Damage: 1.15 -> 1.5
+- Ammo: 150 -> 120
+- Ammo Pickup: {2, 7} -> {5, 5}
+- Overall Spread is reduced by ~40%.
+
+Mark 10:
+- Damage: 1.3 -> 2.4
+- Ammo: 120 -> 108
+- Ammo Pickup: {2, 7} -> {4, 4}
+- Firerate: 0.066 -> 0.05
+
+Locomotive:
+- Damage: 4 -> 6
+- Ammo Pickup: {0, 1} -> {1, 1}
+
+GL40:
+- Now a primary weapon instead of a secondary.
+- Damage: 40 -> 60
+- Explosion Range: 500 -> 600
+- Ammo Pickup: {-4, 1} -> {-2, 1}
+
+Primary:
+AMCAR-4:
+- Ammo Pickup: {2, 10} -> {6, 6}
+- Horizontal Recoil (ADS): -0.45 -> 0.1
+- Vertical Recoil (ADS): -0.45 -> 0.1
+
+Brenner:
+- Firerate: 0.1333 -> 0.075
+- Magazine Size: 160 -> 120 (with all upgrades)
+- Ammo Pickup: {2, 10} -> {7, 7}
+
+M308:
+- Ammo: 72 -> 64
+- Ammo Pickup: {1, 5} -> {3, 3}
+
+Reinbeck:
+- Firerate: 0.8 -> 0.9
+- Ammo Pickup: {1, 2} -> {2, 2}
+
+AK Rifle:
+- Firerate: 0.07 -> 0.09
+- Ammo: 125 -> 140
+- Ammo Pickup: {2, 8} -> {4, 4}
 
 # Progression Changes:
 Challenges have went through several changes:
