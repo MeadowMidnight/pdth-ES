@@ -36,6 +36,7 @@ There is also a mod setting where you can enable buffed crew bonuses, which enha
 
 Another mod setting present is the weapon rebalance option, which rebalances all the weapons in the game.
 - All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
+
 Handguns:
 
 B-9S:
