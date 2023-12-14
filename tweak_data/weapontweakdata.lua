@@ -28,34 +28,21 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	self.beretta92.DAMAGE = 1.5
 	self.beretta92.AMMO_MAX = 80
-	--self.beretta92.spread.standing = 2
-	--self.beretta92.spread.crouching = 1.4
-	---self.beretta92.spread.steelsight = 0.8
-	--self.beretta92.spread.moving_standing = 2
-	--self.beretta92.spread.moving_crouching = 2
 	self.beretta92.AMMO_PICKUP = {5, 5}
 
-	--self.c45.CLIP_AMMO_MAX = 4
 	self.c45.AMMO_MAX = 56
-	--self.c45.AMMO_MAX = 36
 	self.c45.AMMO_PICKUP = {3, 3}
 	self.c45.DAMAGE = 3
 
-	--self.c45.spread.standing = 3
-	--self.c45.spread.crouching = 2.1
-	--self.c45.spread.steelsight = 1.2
-	--self.c45.spread.moving_standing = 3.5
-	--self.c45.spread.moving_crouching = 3.5
+	self.glock.AMMO_MAX = 160
+	self.glock.AMMO_PICKUP = {3, 3}
+	self.glock.DAMAGE = 1.25
 
-	self.glock.AMMO_MAX = 80
-	self.glock.AMMO_PICKUP = {4, 4}
-	self.glock.DAMAGE = 1.75
-
-	self.glock.spread.standing = 3.5
-	self.glock.spread.crouching = 2.45
-	self.glock.spread.steelsight = 1.4
-	self.glock.spread.moving_standing = 3.5
-	self.glock.spread.moving_crouching = 3.5
+	self.glock.spread.standing = 3.2
+	self.glock.spread.crouching = 3.2
+	self.glock.spread.steelsight = 1.28
+	self.glock.spread.moving_standing = 3.2
+	self.glock.spread.moving_crouching = 3.2
 	
 
 	self.m4.kick.v.steelsight = 0.1
