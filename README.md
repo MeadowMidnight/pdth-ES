@@ -34,7 +34,56 @@ There is also a mod setting where you can enable buffed crew bonuses, which enha
 - Protector: 10% -> 50%
 - Speed Reloaders: 10% -> 20%
 
-Another mod setting present is the weapon rebalance option, which rebalances all the weapons in the game.
+# Progression Changes:
+Challenges have went through several changes:
+  - Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
+  - Sentry Gun VS The World is now possible due to the player now being able to hold 4 sentry guns at once.
+  - Repetitive challenges like weapon kills had their requirements lowered due to them being boring to complete.
+  - Overdrill is now possible to trigger in Singleplayer.
+  - Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
+  - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
+  - Challenges don't give Steam achievements in this mod.
+  - No Photos is now earned by simply destroying a single camera, but it gives less XP.
+  - Last Christmas is now possible in Singleplayer. (The presents only spawned in Multiplayer previously.)
+
+Cash Changes:
+- Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
+- End of heist rewards were tweaked.
+- You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
+- You now earn $100k per camera destroyed in a heist.
+- Slaugherhouse gives $500k per gold secured, it increases up to $2500k on Overkill 145+
+- Counterfeit money found in the basement only gives $400k on Easy, up to $2000k on Overkill 145+
+- The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
+- The blue sapphires found in Diamond Heist give $200k, up to $1000k on Overkill 145+
+- Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
+- The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
+- Finding a christmas present during a heist will give $500k to $2500k depending on the difficulty selected.
+
+# Gameplay Changes:
+Team AI Changes:
+- Bot HP is now shown on the in-game HUD.
+- Bots will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
+- Bots will no longer attempt to dodge police shots by randomly moving.
+- Bots won't get knocked down after receiving heavy damage.
+- Bot movement speed has been changed to 600 (default) and is consistent for all members.
+- Bots will no longer get arrested by cloakers. (There is an option to turn this off in the mod settings.)
+  
+Equipment Changes:
+- You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
+- You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
+- You have 8 cable ties due to missing players in singleplayer.
+- You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
+- You get 2 extra trip mines.
+
+Misc Changes:
+- You can now play all heists on Easy difficulty.
+- Cops and civilians will no longer absorb bullets if they are already dead.
+
+# Optional Features
+
+There is a mod setting which rebalances all the weapons in the game.
+
+General Changes:
 - All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
 
 Handguns:
@@ -110,48 +159,3 @@ AK Rifle:
 - Firerate: 0.07 -> 0.09
 - Ammo: 125 -> 140
 - Ammo Pickup: {2, 8} -> {4, 4}
-
-# Progression Changes:
-Challenges have went through several changes:
-  - Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
-  - Sentry Gun VS The World is now possible due to the player now being able to hold 4 sentry guns at once.
-  - Repetitive challenges like weapon kills had their requirements lowered due to them being boring to complete.
-  - Overdrill is now possible to trigger in Singleplayer.
-  - Quick Hands is now possible because of the 0.1 second interaction times for defusing C4. (Yes, I know this is a band-aid and janky fix)
-  - Noob Herder is now possible if all 3 bot crew bonuses are set to Noob Lube and the difficulty is on Overkill or above in the heist.
-  - Challenges don't give Steam achievements in this mod.
-  - No Photos is now earned by simply destroying a single camera, but it gives less XP.
-  - Last Christmas is now possible in Singleplayer. (The presents only spawned in Multiplayer previously.)
-
-Cash Changes:
-- Loot pickups such as cash, gold and diamonds had their values adjusted, and they scale depending on the difficulty played.
-- End of heist rewards were tweaked.
-- You no longer fully replenish both health and ammo when reaching a new reputation level on Hard difficulty or lower.
-- You now earn $100k per camera destroyed in a heist.
-- Slaugherhouse gives $500k per gold secured, it increases up to $2500k on Overkill 145+
-- Counterfeit money found in the basement only gives $400k on Easy, up to $2000k on Overkill 145+
-- The same values above apply to the 70 pieces of gold found in the Overdrill vault in First World Bank, as they both share the same data.
-- The blue sapphires found in Diamond Heist give $200k, up to $1000k on Overkill 145+
-- Same thing applies to the diamonds in the vault in the same heist mentioned, the money randomly found in First World Bank, Panic Room and Slaughterhouse and the necklace in Counterfeit.
-- The blood diamond in Diamond Heist and bracelets found in Counterfeit had their values adjusted.
-- Finding a christmas present during a heist will give $500k to $2500k depending on the difficulty selected.
-
-# Gameplay Changes:
-Team AI Changes:
-- Bot HP is now shown on the in-game HUD.
-- Bots will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
-- Bots will no longer attempt to dodge police shots by randomly moving.
-- Bots won't get knocked down after receiving heavy damage.
-- Bot movement speed has been changed to 600 (default) and is consistent for all members.
-- Bots will no longer get arrested by cloakers. (There is an option to turn this off in the mod settings.)
-  
-Equipment Changes:
-- You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
-- You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
-- You have 8 cable ties due to missing players in singleplayer.
-- You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
-- You get 2 extra trip mines.
-
-Misc Changes:
-- You can now play all heists on Easy difficulty.
-- Cops and civilians will no longer absorb bullets if they are already dead.
