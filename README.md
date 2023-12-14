@@ -29,6 +29,15 @@ These bonuses will always be active, even if the bots are downed, in custody or 
 
 You can change the crew bonuses to "Not Active" if you don't want them.
 
+There is also a mod setting where you can enable buffed crew bonuses, which enhances underused crew bonuses.
+- Sharpshooter: 10% -> 25%
+- Protector: 10% -> 50%
+- Speed Reloaders: 10% -> 20%
+
+Another mod setting present is the weapon rebalance option, which rebalances all the weapons in the game.
+- All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
+- STRYK no longer has ADS zoom.
+
 # Progression Changes:
 Challenges have went through several changes:
   - Challenges now give 2x the amount of XP then they normally did in vanilla, making grinding less tedious and easier to level up from a new save.
