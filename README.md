@@ -57,7 +57,7 @@ Bronco:
 STRYK:
 - Damage: 1 -> 1.5
 - Ammo: 56 -> 160
-- Ammo Pickup: {5, 7} -> {2, 2}
+- Ammo Pickup: {5, 7} -> {3, 3}
 - Overall Spread is reduced by ~20%.
 - No longer has ADS zoom.
 
