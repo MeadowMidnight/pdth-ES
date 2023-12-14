@@ -11,7 +11,6 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	end
 	self.m79.DAMAGE = 60
 	self.m79.EXPLOSION_RANGE = 600
-	self.m79.NR_CLIPS_MAX = 4
 	self.m79.AMMO_PICKUP = {-2, 1}
 	self.m79.use_data.selection_index = 2
 
@@ -49,7 +48,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.m4.kick.h.steelsight = 0.1
 	self.m4.AMMO_PICKUP = {6, 6}
 
-	self.mp5.DAMAGE = 1.6
+	self.mp5.DAMAGE = 1.5
 	self.mp5.AMMO_MAX = 120
 	self.mp5.AMMO_PICKUP = {5, 5}
 
@@ -59,7 +58,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.mp5.spread.moving_standing = 2.7
 	self.mp5.spread.moving_crouching = 2.28
 
-	self.r870_shotgun.single.fire_rate = 1
+	self.r870_shotgun.single.fire_rate = 0.9
 	self.r870_shotgun.AMMO_PICKUP = {2, 2}
 
 	self.ak47.auto.fire_rate = 0.09
