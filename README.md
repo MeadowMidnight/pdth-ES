@@ -82,6 +82,7 @@ Misc Changes:
 - Cops that use shotguns now have consistent reaction times compared to other enemies using different weapons.
 
 # Optional Features
+A mutator called "Multiplayer Spawns" is available while using this mod. It emulates the police spawns from multiplayer, but be warned that the 25 enemy spawn limit is fixed in this mod meaning there will be up to 35 enemies on the map at the same time in besiege assaults. (Besiege assaults are on every heist except for Heat Street and Green Bridge)
 
 There is a mod setting which rebalances all the weapons in the game.
 
