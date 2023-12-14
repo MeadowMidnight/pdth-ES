@@ -13,8 +13,6 @@ module:hook_post_require("lib/units/player_team/teamaidamage", "units/bots/teama
 module:hook_post_require("lib/units/player_team/teamaimovement", "units/bots/teamaimovement")
 module:hook_post_require("lib/units/props/timergui", "units/props/timergui")
 module:hook_post_require("lib/tweak_data/tweakdata", "tweak_data/tweakdata")
-module:hook_post_require("lib/tweak_data/groupaitweakdata", "tweak_data/groupaitweakdata")
-module:hook_post_require("lib/tweak_data/playertweakdata", "tweak_data/overhaulplayer")
 module:hook_post_require("lib/tweak_data/playertweakdata", "tweak_data/playertweakdata")
 module:hook_post_require("lib/tweak_data/equipmentstweakdata", "tweak_data/equipmentstweakdata")
 module:hook_post_require("lib/tweak_data/upgradestweakdata", "tweak_data/upgradestweakdata")
