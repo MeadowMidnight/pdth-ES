@@ -78,6 +78,7 @@ Equipment Changes:
 Misc Changes:
 - You can now play all heists on Easy difficulty.
 - Cops and civilians will no longer absorb bullets if they are already dead.
+- Cops that use shotguns now have consistent reaction times compared to other enemies using different weapons.
 
 # Optional Features
 
