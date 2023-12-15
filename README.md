@@ -80,7 +80,11 @@ Equipment Changes:
 Misc Changes:
 - You can now play all heists on Easy difficulty.
 - Cops and civilians will no longer absorb bullets if they are already dead.
-- Cops that use shotguns now have consistent reaction times compared to other enemies using different weapons.
+- Cops that use shotguns now have consistent reaction times compared to other enemies using different weapons. (Basically shotgunners don't have 0.02 seconds reaction time and instead have 0.2 seconds)
+- Camera shake reduced when taking damage, getting tased or performing a melee attack.
+- Civilians will now be scared by gunfire and will get down, this can be used for stealth in No Mercy or Counterfeit. (Doesn't work in Diamond Heist or Undercover)
+- Bags that are deployed by the player can be shot through and will no longer absorb bullets.
+- Minimum Down timer in Overkill 145+ is reduced from 1 second to 0 seconds to prevent rare moments where the bots are able to save you, as seen here: https://www.youtube.com/watch?v=gCj7_EfczJI (Footage is not mine, it belongs to fright fulpath)
 
 # Optional Features
 A mutator called "Multiplayer Spawns" is available while using this mod. It emulates the police spawns from multiplayer, but be warned that the 25 enemy spawn limit is fixed in this mod meaning there will be up to 35 enemies on the map at the same time in besiege assaults. (Besiege assaults are on every heist except for Heat Street and Green Bridge)
