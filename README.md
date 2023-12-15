@@ -71,6 +71,7 @@ Team AI Changes:
   
 Equipment Changes:
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
+- Note that ammo bags and doctor bags will be fully upgraded once first acquired, subsequent upgrades will not affect their total usage.
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
 - You have 8 cable ties due to missing players in singleplayer.
 - You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
