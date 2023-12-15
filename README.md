@@ -106,6 +106,7 @@ Bronco:
 - Ammo: 36 -> 30
 - Spread when in ADS: 1.8 -> 0
 - Ammo Pickup: {1, 2} -> {1, 1}
+- Now has ADS zoom.
 
 STRYK:
 - Damage: 1 -> 1.5

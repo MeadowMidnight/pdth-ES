@@ -9,6 +9,7 @@ module:post_hook(PlayerTweakDataHook, "init", function(self)
 	self.movement_state.interaction_delay = 1
 	if rebalanced_weapons then
 		self.stances.glock.steelsight.zoom_fov = false
+		self.stances.raging_bull.steelsight.zoom_fov = true
 	end
 end, false)
 module:post_hook(PlayerTweakDataHook, "_set_easy", function(self)
