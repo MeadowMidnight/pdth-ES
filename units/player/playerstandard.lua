@@ -8,7 +8,7 @@ local _StockholmSyndrome = {
 }
 function PlayerStandard:_check_action_primary_attack(t, input)
 	local _res = _check_action_primary_attack(self, t, input)
-	if self._shooting and t > _StockholmSyndrome._delay and Global.level_data.level_id ~= "secret_stash" then
+	if self._shooting and t > _StockholmSyndrome._delay and Global.level_data.level_id ~= "secret_stash" and Global.level_data.level_id ~= "diamond_heist" then
 		_StockholmSyndrome._delay = t
 		local _local_pos = self._unit:position()
 		for u_key, u_data in pairs(managers.enemy:all_civilians()) do
