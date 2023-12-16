@@ -12,6 +12,9 @@ Simply extract the file and place it in the "mods" folder in the game directory.
 
 When uninstalling this mod, DO NOT disable it in the mod settings in-game, just delete or move the pdth-ES folder from the mods folder to prevent save corruption.
 
+# Credits:
+Some features in this mod (such as 
+
 # Features:
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
@@ -79,6 +82,7 @@ Equipment Changes:
 
 Misc Changes:
 - You can now play all heists on Easy difficulty.
+- Fixed a bug where explosions register damage multiple times (Code for fix originally by RedFlame)
 - Cops and civilians will no longer absorb bullets if they are already dead.
 - Cops that use shotguns now have consistent reaction times compared to other enemies using different weapons. (Basically shotgunners don't have 0.02 seconds reaction time and instead have 0.2 seconds)
 - Camera shake reduced when taking damage, getting tased or performing a melee attack.
