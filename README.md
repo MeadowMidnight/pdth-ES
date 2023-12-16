@@ -14,6 +14,7 @@ When uninstalling this mod, DO NOT disable it in the mod settings in-game, just 
 
 # Credits:
 Some features in this mod were taken from PD:TH Full Game Overhaul, which can be found here: https://modworkshop.net/mod/42754
+Stockholm Syndrome effect was taken from Dr_Newbie's mod of the same name, which can be found here: https://modworkshop.net/mod/20999
 
 # Features:
   
@@ -64,7 +65,7 @@ Cash Changes:
 
 # Gameplay Changes:
 Team AI Changes:
-- Bot HP is now shown on the in-game HUD.
+- Bot HP is now shown on the in-game HUD. (Code originally by DorentuZ)
 - Bots will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
 - Bots will no longer attempt to dodge police shots by randomly moving.
 - Bots won't get knocked down after receiving heavy damage.
@@ -72,13 +73,15 @@ Team AI Changes:
 - Bots will no longer get arrested by cloakers. (There is an option to turn this off in the mod settings.)
 - Bots will no longer block bullets and GL40 shots fired by the player.
   
-Equipment Changes:
+Loadout/Equipment Changes:
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
 - Note that ammo bags and doctor bags will be fully upgraded once first acquired, subsequent upgrades will not affect their total usage.
 - You now have 4 sentry guns you can deploy, the rest of their stats remain unchanged.
 - You have 8 cable ties due to missing players in singleplayer.
 - You can now carry 2 thermite/gasoline, 9 pieces of C4 and 4 blood samples at once.
 - You get 2 extra trip mines.
+- Toolkit interaction speed: 20% faster interaction speed -> 30% faster interaction speed (fully upgraded)
+- Now also reduces drill/saw timers by the same percentages.
 
 Misc Changes:
 - You can now play all heists on Easy difficulty.
