@@ -77,6 +77,7 @@ Team AI Changes:
 - Bot movement speed has been changed to 600 (default) and is consistent for all members.
 - Bots will no longer get arrested by cloakers. (There is an option to turn this off in the mod settings.)
 - Bots will no longer block bullets and GL40 shots fired by the player.
+- Bot HP, Speed and Regeneration Time can be changed in the mod settings.
   
 Loadout/Equipment Changes:
 - You have 2 ammo bags or 2 doctor bags now, at the cost of only 4 total uses from doctor bags (2 uses per bag, previously 5 uses from a single bag in vanilla) and ammo bag percentage total remains unchanged. (500% per bag, totalling up to 1000%)
