@@ -103,7 +103,7 @@ Misc Changes:
 # Optional Features
 A mutator called "Multiplayer Spawns" is available while using this mod. It emulates the police spawns from multiplayer, but be warned that the 25 enemy spawn limit is fixed in this mod meaning there will be up to 35 enemies on the map at the same time in besiege assaults. (Besiege assaults are on every heist except for Heat Street and Green Bridge)
 
-There is a mod setting which rebalances all the weapons in the game, see below for all the changes done to the weapons.
+There is a mod setting which rebalances all the weapons in the game, see below for all the changes done to the weapons. (Keep it off if you want to use your own weapon rebalance mods instead)
 
 General Changes:
 - All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
