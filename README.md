@@ -14,7 +14,10 @@ When uninstalling this mod, DO NOT disable it in the mod settings in-game, just 
 
 # Credits:
 Some features in this mod were taken from PD:TH Full Game Overhaul, which can be found here: https://modworkshop.net/mod/42754
+
 Stockholm Syndrome effect was taken from Dr_Newbie's mod of the same name, which can be found here: https://modworkshop.net/mod/20999
+
+Reduced camera shaking effects were taken from Motion Sickness Helper mod, which can be found here: https://modworkshop.net/mod/40746
 
 # Features:
   
@@ -97,7 +100,7 @@ Misc Changes:
 # Optional Features
 A mutator called "Multiplayer Spawns" is available while using this mod. It emulates the police spawns from multiplayer, but be warned that the 25 enemy spawn limit is fixed in this mod meaning there will be up to 35 enemies on the map at the same time in besiege assaults. (Besiege assaults are on every heist except for Heat Street and Green Bridge)
 
-There is a mod setting which rebalances all the weapons in the game.
+There is a mod setting which rebalances all the weapons in the game, see below for all the changes done to the weapons.
 
 General Changes:
 - All weapons except the GL40 have fixed ammo pickup, meaning it's no longer randomized.
