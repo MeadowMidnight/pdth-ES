@@ -19,6 +19,8 @@ Stockholm Syndrome effect was taken from Dr_Newbie's mod of the same name, which
 
 Reduced camera shaking effects were taken from Motion Sickness Helper mod, which can be found here: https://modworkshop.net/mod/40746
 
+Code to enable Solo Overdrill was by DorentuZ which was posted in the comments of this mod: https://modworkshop.net/mod/27472
+
 # Features:
   
 From the mod settings, you can select up to 3 crew bonuses that the bots can give to you. (They DO NOT stack when the same one is used.)
