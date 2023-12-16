@@ -72,7 +72,7 @@ module:add_menu_option("max_key", {
 	}
 })
 local function max_out()
-	managers.experience:add_points(500000, true)
+	managers.experience:add_points(5000000, true)
 end
 module:hook("OnKeyPressed", "max_key", nil, "GAME", function()
 	max_out()
