@@ -65,15 +65,30 @@ module:add_menu_option("bot_arrest", {
 	help_id = "BA_desc",
 	default_value = true
 })
-module:add_menu_option("max_key", {
+--[[module:add_menu_option("max_key", {
 	type = "keybind",
 	name = {
 		english = "Max Progression Keybind:"
 	}
 })
 local function max_out()
-	managers.experience:add_points(5000000, true)
+	local crew_bonus = D:conf("crew_bonus_1") or false
+	local crew_bonus2 = D:conf("crew_bonus_2") or false
+	local crew_bonus3 = D:conf("crew_bonus_3") or false
+	local has_noob_lube = false
+	local has_nice_guy = false
+	if crew_bonus == "noob_lube" or crew_bonus2 == "noob_lube" or crew_bonus3 == "noob_lube" then
+		has_noob_lube = true
+	end
+	if crew_bonus == "nice_guy" or crew_bonus2 == "nice_guy" or crew_bonus3 == "nice_guy" then
+		has_nice_guy = true
+	end
+	if has_noob_lube == false and has_nice_guy == false and managers.dlc:has_dlc1() then
+		managers.experience:add_points(1333207, false)
+	elseif has_noob_lube == false and has_nice_guy == false and not managers.dlc:has_dlc1() then
+		managers.experience:add_points(697207, false)
+	end
 end
 module:hook("OnKeyPressed", "max_key", nil, "GAME", function()
 	max_out()
-end)
+end) ]]
