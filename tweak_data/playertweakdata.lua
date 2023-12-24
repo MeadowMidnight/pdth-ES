@@ -12,6 +12,8 @@ module:post_hook(PlayerTweakDataHook, "init", function(self)
 		self.stances.raging_bull.steelsight.zoom_fov = true
 	end
 end, false)
+-- Respawn times are set to zero for a cheap way to make a fade in and fade out transition into the gameover screen. 
+-- Even if the gameover screen is delayed, the player won't respawn and their screen will stay empty unless the ingamewaitingforrespawn file is modified. --
 module:post_hook(PlayerTweakDataHook, "_set_easy", function(self)
 	self.damage.automatic_respawn_time = 0
 end, false)
