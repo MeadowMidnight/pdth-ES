@@ -10,6 +10,7 @@ module:hook_post_require("lib/units/equipment/doctor_bag/doctorbagbase", "misc/b
 module:hook_post_require("lib/units/equipment/ammo_bag/ammobagbase", "misc/bag_collision")
 module:hook_post_require("lib/tweak_data/charactertweakdata", "tweak_data/charactertweakdata")
 module:hook_post_require("lib/units/player_team/teamaidamage", "units/bots/teamaidamage")
+module:hook_post_require("lib/units/player_team/logics/teamailogicidle", "units/bots/teamailogicidle")
 module:hook_post_require("lib/units/player_team/teamaimovement", "units/bots/teamaimovement")
 module:hook_post_require("lib/units/props/timergui", "units/props/timergui")
 module:hook_post_require("lib/tweak_data/tweakdata", "tweak_data/tweakdata")
