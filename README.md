@@ -109,7 +109,7 @@ General Changes:
 Handguns:
 
 B9-S:
-- Damage: 1 -> 1.5
+- Damage: 1 -> 1.75
 - Ammo: 56 -> 80
 - Ammo Pickup: {6, 8} -> {5, 5}
 

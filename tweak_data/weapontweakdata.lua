@@ -25,7 +25,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 	self.m14.AMMO_PICKUP = {3, 3}
 	self.m14.AMMO_MAX = 64
 
-	self.beretta92.DAMAGE = 1.5
+	self.beretta92.DAMAGE = 1.75
 	self.beretta92.AMMO_MAX = 80
 	self.beretta92.AMMO_PICKUP = {5, 5}
 
@@ -35,7 +35,7 @@ module:post_hook(WeaponTweakData, "_init_data_player_weapons", function(self)
 
 	self.glock.AMMO_MAX = 160
 	self.glock.AMMO_PICKUP = {3, 3}
-	self.glock.DAMAGE = 1.25
+	self.glock.DAMAGE = 1.5
 
 	self.glock.spread.standing = 3.2
 	self.glock.spread.crouching = 3.2
