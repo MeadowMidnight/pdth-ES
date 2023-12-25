@@ -121,3 +121,6 @@ function MaskOptionInitiator:modify_node(node)
 	choose_mask:set_value(managers.user:get_setting("mask_set"))
 	return node
 end
+function MenuCallbackHandler:is_level_145()
+	return managers.experience:current_level() >= 0
+end
