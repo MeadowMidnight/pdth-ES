@@ -70,6 +70,7 @@ Cash Changes:
 Team AI Changes:
 - Bot HP is now shown on the in-game HUD. (Code originally by DorentuZ)
 - Bots will no longer screw up stealth if they fire their weapon against the guard that appears in No Mercy or the cops that arrive in Counterfeit.
+- Bots will use their critical revive lines when you're about to enter custody on your last down in Overkill 145+
 - Bots will no longer attempt to dodge police shots by randomly moving.
 - Bots won't get knocked down after receiving heavy damage.
 - Bot movement speed has been changed to 600 (default) and is consistent for all members.
@@ -88,7 +89,7 @@ Loadout/Equipment Changes:
 - Now also reduces drill/saw timers by the same percentages.
 
 Misc Changes:
-- You can now play all heists on Easy difficulty.
+- You can now play all heists on Easy difficulty and Overkill 145+ regardless of reputation level.
 - All masks (except Infected and Soundtrack masks) are unlocked by default since the mod is sandboxed anyways.
 - Fixed a bug where explosions register damage multiple times (Code for fix originally by RedFlame)
 - Cops and civilians will no longer absorb bullets if they are already dead.
